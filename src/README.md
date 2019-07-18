@@ -5,10 +5,11 @@ The hardware soloution will contain sensors that allow the team to accurately de
 
 ## Design
 Below are screenshots of the current revision of the schematic and board (created in Eagle).
-###Schematic
-![Schematic](./schematic_ref)
+
+### Schematic
+![Schematic](./schematic_ref.png)
 ### Board
-![board](./board_ref)
+![board](./board_ref.png)
 
 ## Features
 #### Radio
