@@ -5,36 +5,32 @@ The hardware soloution will contain sensors that allow the team to accurately de
 
 ## Design
 Below are screenshots of the current revision of the schematic and board (created in Eagle).
-###Schematic
-![Schematic](./schematic_ref)
+
+### Schematic
+![Schematic](./schematic_ref.png)
 ### Board
-![board](./board_ref)
+![board](./board_ref.png)
 
 ## Features
-### Radio
+#### Radio
 [RFM95W](https://www.adafruit.com/product/3072)
-![](https://cdn-shop.adafruit.com/1200x900/3072-00.jpg)
 
-### IMU
+#### IMU
 [MPU9250](https://www.sparkfun.com/products/13762)
-![](https://cdn.sparkfun.com//assets/parts/1/1/3/0/6/13762-00a.jpg)
 
-### Evironment Sensing
+#### Evironment Sensing
 [MPL3115A2](https://www.adafruit.com/product/1893)
-![](https://cdn-shop.adafruit.com/970x728/1893-02.jpg)
 
-### GPS
+#### GPS
 [Adafruit Ultimate GPS Breakout](https://www.adafruit.com/product/746?gclid=CjwKCAjwscDpBRBnEiwAnQ0HQNEhq5xu14W7TX12W0gVZqHBnbDJNApMf9mEeb73NOOZy2kR0mpCVRoCgI8QAvD_BwE)
-![](https://cdn-shop.adafruit.com/970x728/746-11.jpg)
 
-### Battery Monitoring
+#### Battery Monitoring
 [INA219](https://www.adafruit.com/product/904)
-![](https://cdn-shop.adafruit.com/970x728/904-00.jpg)
 
-### Servo Driver
+#### Servo Driver
 [PCA9686](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
 
-### Power
+#### Power
 [L7805 and L7806](https://www.mouser.ca/datasheet/2/389/l78m-974157.pdf)
 
 ## TODO
