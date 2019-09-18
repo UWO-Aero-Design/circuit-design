@@ -8610,7 +8610,6 @@ Source: http://www.linear.com</description>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1" value="DIG_IO"/>
 <part name="7805" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_78XX" device="SINK" package3d_urn="urn:adsk.eagle:package:39063/1" value="7805"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="SPI"/>
-<part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="POWER"/>
 <part name="IC1" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1963AET*" device="" package3d_urn="urn:adsk.eagle:package:16056/1"/>
 <part name="IC2" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1963AET*" device="" package3d_urn="urn:adsk.eagle:package:16056/1"/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37423/1" value="10uF"/>
@@ -8629,6 +8628,8 @@ Source: http://www.linear.com</description>
 <part name="SCL" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="SDA" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="BAT_GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="BAT_VIN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8904,10 +8905,6 @@ Source: http://www.linear.com</description>
 <attribute name="VALUE" x="-9.906" y="223.52" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="5.588" y="223.52" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="J12" gate="G$1" x="-40.64" y="57.912" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-45.466" y="60.452" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="-35.052" y="60.452" size="1.778" layer="95" font="vector" rot="R270"/>
-</instance>
 <instance part="IC1" gate="G$1" x="-66.04" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="-58.42" y="6.35" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-63.5" y="6.35" size="1.778" layer="96" rot="R180"/>
@@ -8980,6 +8977,14 @@ Source: http://www.linear.com</description>
 <attribute name="VALUE" x="56.134" y="180.34" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="64.008" y="180.34" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
+<instance part="BAT_GND" gate="G$1" x="-45.72" y="58.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-50.546" y="60.96" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="-42.672" y="60.96" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="BAT_VIN" gate="G$1" x="-33.02" y="58.42" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-37.846" y="60.96" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="-29.972" y="60.96" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8987,11 +8992,12 @@ Source: http://www.linear.com</description>
 <net name="VIN+" class="0">
 <segment>
 <label x="-38.1" y="35.56" size="1.778" layer="95"/>
-<wire x1="-38.1" y1="50.292" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="J12" gate="G$1" pin="2"/>
 <pinref part="BAT" gate="G$1" pin="1"/>
 <wire x1="-38.1" y1="43.18" x2="-38.1" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="43.18" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="BAT_VIN" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="50.8" x2="-38.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="50.8" x2="-38.1" y2="43.18" width="0.1524" layer="91"/>
 <junction x="-38.1" y="43.18"/>
 </segment>
 <segment>
@@ -9269,11 +9275,12 @@ Source: http://www.linear.com</description>
 </segment>
 <segment>
 <label x="-45.72" y="35.56" size="1.778" layer="95"/>
-<pinref part="J12" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="50.292" x2="-40.64" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="43.18" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="43.18" x2="-40.64" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="BAT_GND" gate="G$1" pin="1"/>
+<wire x1="-45.72" y1="50.8" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="43.18" x2="-40.64" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-40.64" y="43.18"/>
 </segment>
 <segment>
