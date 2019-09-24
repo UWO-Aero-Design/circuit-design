@@ -186,10 +186,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="-1.5" y1="0.5" x2="132.24" y2="0" width="0" layer="20"/>
-<wire x1="132.24" y1="0" x2="132.24" y2="108.87" width="0" layer="20"/>
-<wire x1="132.24" y1="108.87" x2="-1.5" y2="108.87" width="0" layer="20"/>
-<wire x1="-1.5" y1="108.87" x2="-1.5" y2="0.5" width="0" layer="20"/>
+<wire x1="-1.5" y1="0.5" x2="114.24" y2="0.375" width="0" layer="20"/>
+<wire x1="114.24" y1="0.375" x2="114.24" y2="105.695" width="0" layer="20"/>
+<wire x1="114.24" y1="105.695" x2="-1.5" y2="105.795" width="0" layer="20"/>
+<wire x1="-1.5" y1="105.795" x2="-1.5" y2="0.5" width="0" layer="20"/>
 <text x="80.5" y="2.5" size="2.54" layer="21" align="center">Jeff St. Jean</text>
 <text x="43" y="94.5" size="2.54" layer="21" align="center">Western Engineering
 Aero Design
