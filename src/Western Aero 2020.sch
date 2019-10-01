@@ -8630,6 +8630,8 @@ Source: http://www.linear.com</description>
 <part name="3.3V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="BAT_GND" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="BAT_VIN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
+<part name="R30" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7k"/>
+<part name="R31" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8965,9 +8967,9 @@ Source: http://www.linear.com</description>
 <attribute name="VALUE" x="-104.14" y="-9.906" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-104.14" y="-2.032" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SCL" gate="G$1" x="-27.94" y="137.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-32.766" y="139.7" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="-24.892" y="139.7" size="1.778" layer="95" font="vector" rot="R270"/>
+<instance part="SCL" gate="G$1" x="-40.64" y="137.16" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-45.466" y="139.7" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="-37.592" y="139.7" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="SDA" gate="G$1" x="-15.24" y="137.16" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-20.066" y="139.7" size="1.778" layer="96" font="vector" rot="R270"/>
@@ -8984,6 +8986,14 @@ Source: http://www.linear.com</description>
 <instance part="BAT_VIN" gate="G$1" x="-33.02" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-37.846" y="60.96" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="-29.972" y="60.96" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="R30" gate="G$1" x="-27.94" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="-29.464" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-26.416" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R31" gate="G$1" x="-33.02" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="-33.02" y="115.316" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="-33.02" y="118.364" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9370,11 +9380,15 @@ Source: http://www.linear.com</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="18/A4/SDA0"/>
 <wire x1="0" y1="124.46" x2="-15.24" y2="124.46" width="0.1524" layer="91"/>
-<label x="-25.4" y="124.46" size="1.778" layer="95"/>
+<label x="-35.56" y="124.46" size="1.778" layer="95"/>
 <pinref part="SDA" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="124.46" x2="-27.94" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="124.46" x2="-33.02" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="129.54" x2="-15.24" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-15.24" y="124.46"/>
+<wire x1="-27.94" y1="124.46" x2="-27.94" y2="127" width="0.1524" layer="91"/>
+<junction x="-27.94" y="124.46"/>
+<pinref part="R30" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9401,11 +9415,15 @@ Source: http://www.linear.com</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="19/A5/SCL0"/>
 <wire x1="0" y1="121.92" x2="-27.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="-35.56" y="121.92" size="1.778" layer="95"/>
+<label x="-45.72" y="121.92" size="1.778" layer="95"/>
 <pinref part="SCL" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="121.92" x2="-33.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="129.54" x2="-27.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="121.92" x2="-40.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="121.92" x2="-43.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="129.54" x2="-40.64" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-40.64" y="121.92"/>
 <junction x="-27.94" y="121.92"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="121.92" x2="-27.94" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9486,6 +9504,16 @@ Source: http://www.linear.com</description>
 <junction x="33.02" y="10.16"/>
 <wire x1="33.02" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <label x="25.4" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91"/>
+<label x="-40.64" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="137.16" x2="-27.94" y2="139.7" width="0.1524" layer="91"/>
+<label x="-27.94" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENV_INT2" class="0">
