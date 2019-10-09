@@ -8567,7 +8567,6 @@ Source: http://www.linear.com</description>
 <part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="ANA_IO"/>
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="REF/GND"/>
 <part name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="PWR"/>
-<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="" package3d_urn="urn:adsk.eagle:package:38085/1" value="DIG_IO"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
@@ -8632,6 +8631,7 @@ Source: http://www.linear.com</description>
 <part name="BAT_VIN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="" package3d_urn="urn:adsk.eagle:package:38028/1"/>
 <part name="R30" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7k"/>
 <part name="R31" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7K"/>
+<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="" package3d_urn="urn:adsk.eagle:package:38104/1" value="DIG_IO"/>
 </parts>
 <sheets>
 <sheet>
@@ -8735,10 +8735,6 @@ Source: http://www.linear.com</description>
 <instance part="J11" gate="G$1" x="48.26" y="195.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.894" y="200.66" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="56.388" y="200.66" size="1.778" layer="95" font="vector" rot="R270"/>
-</instance>
-<instance part="J8" gate="G$1" x="22.86" y="195.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="15.494" y="200.66" size="1.778" layer="96" font="vector" rot="R270"/>
-<attribute name="NAME" x="30.988" y="200.66" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 <instance part="R1" gate="G$1" x="-79.756" y="193.548" smashed="yes">
 <attribute name="NAME" x="-79.756" y="195.072" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -8994,6 +8990,10 @@ Source: http://www.linear.com</description>
 <instance part="R31" gate="G$1" x="-33.02" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="-33.02" y="115.316" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="-33.02" y="118.364" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+</instance>
+<instance part="J8" gate="G$1" x="25.4" y="198.12" smashed="yes" rot="R270">
+<attribute name="VALUE" x="15.494" y="200.66" size="1.778" layer="96" font="vector" rot="R270"/>
+<attribute name="NAME" x="33.528" y="200.66" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9596,23 +9596,6 @@ Source: http://www.linear.com</description>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="0" y1="213.36" x2="0" y2="210.82" width="0.1524" layer="91"/>
 <label x="0" y="210.82" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="CS" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="CS"/>
-<wire x1="116.84" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
-<label x="111.76" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="33/A14/TX5"/>
-<wire x1="0" y1="86.36" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
-<label x="-10.16" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="2.54" y1="213.36" x2="2.54" y2="210.82" width="0.1524" layer="91"/>
-<label x="2.54" y="210.82" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="LORA_RST" class="0">
@@ -10321,9 +10304,9 @@ Source: http://www.linear.com</description>
 </net>
 <net name="D3" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="190.5" x2="20.32" y2="187.96" width="0.1524" layer="91"/>
 <label x="20.32" y="187.96" size="1.778" layer="95" rot="R270"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="3/CAN0-TX/SCL2/PWM"/>
@@ -10338,9 +10321,9 @@ Source: http://www.linear.com</description>
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="190.5" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
 <label x="22.86" y="187.96" size="1.778" layer="95" rot="R270"/>
+<pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="4/CAN0-RX/SDA2/PWM"/>
@@ -10350,9 +10333,9 @@ Source: http://www.linear.com</description>
 </net>
 <net name="D5" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="190.5" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
 <label x="25.4" y="187.96" size="1.778" layer="95" rot="R270"/>
+<pinref part="J8" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="5/PWM"/>
@@ -10362,9 +10345,9 @@ Source: http://www.linear.com</description>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="4"/>
 <wire x1="27.94" y1="190.5" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
 <label x="27.94" y="187.96" size="1.778" layer="95" rot="R270"/>
+<pinref part="J8" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="6/PWM"/>
@@ -10655,6 +10638,30 @@ Source: http://www.linear.com</description>
 <wire x1="200.66" y1="0" x2="190.5" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="TX_2" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="CS"/>
+<wire x1="116.84" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
+<label x="109.22" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="2.54" y1="213.36" x2="2.54" y2="210.82" width="0.1524" layer="91"/>
+<label x="2.54" y="210.82" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="D33" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="33/A14/TX5"/>
+<wire x1="0" y1="86.36" x2="-2.54" y2="86.36" width="0.1524" layer="91"/>
+<label x="-5.08" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="5"/>
+<wire x1="30.48" y1="190.5" x2="30.48" y2="187.96" width="0.1524" layer="91"/>
+<label x="30.48" y="187.96" size="1.778" layer="95" rot="R90" align="top-right"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -10679,6 +10686,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>

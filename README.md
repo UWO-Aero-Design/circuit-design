@@ -38,7 +38,5 @@ Below are screenshots of the current revision of the schematic and board (create
 - [x] Create schematic
 - [x] Layout board
 - [x] Route board
-- [x] Re-Route board (lol)
-- [ ] Add Aero Design logo to board
 - [ ] Order board
 - [ ] Test board
