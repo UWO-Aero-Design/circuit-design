@@ -24,9 +24,6 @@ Below are screenshots of the current revision of the schematic and board (create
 #### GPS
 [Adafruit Ultimate GPS Breakout](https://www.adafruit.com/product/746?gclid=CjwKCAjwscDpBRBnEiwAnQ0HQNEhq5xu14W7TX12W0gVZqHBnbDJNApMf9mEeb73NOOZy2kR0mpCVRoCgI8QAvD_BwE)
 
-#### Battery Monitoring
-[INA219](https://www.adafruit.com/product/904)
-
 #### Servo Driver
 [PCA9686](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
 
@@ -38,5 +35,5 @@ Below are screenshots of the current revision of the schematic and board (create
 - [x] Create schematic
 - [x] Layout board
 - [x] Route board
-- [ ] Order board
+- [x] Order board
 - [ ] Test board
