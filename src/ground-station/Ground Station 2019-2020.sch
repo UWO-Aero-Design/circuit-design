@@ -3871,14 +3871,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <parts>
 <part name="U1" library="AERO_Eagle_Library" deviceset="ADAFRUIT_RFM95W_LORA_RADIO" device=""/>
 <part name="HC-05" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="SILK_FEMALE_PTH" package3d_urn="urn:adsk.eagle:package:38009/1"/>
-<part name="LED1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
-<part name="LED2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
-<part name="LED3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="330"/>
-<part name="LED4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
+<part name="RED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
+<part name="YELLOW" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
+<part name="BLUE" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="330OHM" device="-HORIZ-1/10W-5%" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
+<part name="WHITE" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:39353/1"/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
@@ -3893,14 +3893,14 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instances>
 <instance part="U1" gate="G$1" x="187.96" y="120.65" rot="R270"/>
 <instance part="HC-05" gate="G$1" x="187.96" y="147.32" rot="R180"/>
-<instance part="LED1" gate="G$1" x="41.91" y="93.98" rot="R270"/>
-<instance part="LED2" gate="G$1" x="40.64" y="86.36" rot="R270"/>
-<instance part="LED3" gate="G$1" x="40.64" y="80.01" rot="R270"/>
+<instance part="RED" gate="G$1" x="41.91" y="93.98" rot="R270"/>
+<instance part="YELLOW" gate="G$1" x="40.64" y="86.36" rot="R270"/>
+<instance part="BLUE" gate="G$1" x="40.64" y="80.01" rot="R270"/>
 <instance part="R1" gate="G$1" x="55.88" y="80.01"/>
 <instance part="R2" gate="G$1" x="55.88" y="86.36"/>
 <instance part="R3" gate="G$1" x="55.88" y="93.98"/>
 <instance part="R4" gate="G$1" x="55.88" y="72.39"/>
-<instance part="LED4" gate="G$1" x="40.64" y="72.39" rot="R270"/>
+<instance part="WHITE" gate="G$1" x="40.64" y="72.39" rot="R270"/>
 <instance part="H1" gate="G$1" x="38.1" y="63.5"/>
 <instance part="H2" gate="G$1" x="45.72" y="63.5"/>
 <instance part="H3" gate="G$1" x="53.34" y="63.5"/>
@@ -3918,17 +3918,17 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="177.8" y="110.49" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="BLUE" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="80.01" x2="30.48" y2="80.01" width="0.1524" layer="91"/>
 <label x="30.48" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="YELLOW" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="30.48" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="RED" gate="G$1" pin="C"/>
 <wire x1="36.83" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="30.48" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -3938,7 +3938,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="177.8" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="WHITE" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="72.39" x2="30.48" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="72.39" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="30.48" y="73.66" size="1.778" layer="95"/>
@@ -3979,21 +3979,21 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="BLUE" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="80.01" x2="43.18" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="YELLOW" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="RED" gate="G$1" pin="A"/>
 <wire x1="50.8" y1="93.98" x2="44.45" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4131,7 +4131,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="WHITE" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="72.39" x2="50.8" y2="72.39" width="0.1524" layer="91"/>
 </segment>
