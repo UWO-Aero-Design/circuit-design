@@ -3367,6 +3367,45 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
+<package name="LED5MMRGB" urn="urn:adsk.eagle:footprint:6240006/1" library_version="2">
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="21" curve="-286.260205"/>
+<wire x1="-1.524" y1="0" x2="0.254" y2="0" width="0.127" layer="25"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="0.254" y1="-1.905" x2="-1.524" y2="-1.905" width="0.127" layer="25"/>
+<wire x1="-1.524" y1="-1.905" x2="-1.524" y2="0" width="0.127" layer="25"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+<pad name="1" x="-2.159" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="2" x="-0.635" y="-0.9684" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
+<pad name="3" x="0.889" y="0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<pad name="4" x="2.159" y="-0.9684" drill="0.8" diameter="1.6764" rot="R90"/>
+<text x="-3.175" y="3.175" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="PIRANHA5MM" urn="urn:adsk.eagle:footprint:6240137/1" library_version="2">
+<wire x1="-2.794" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.794" x2="-2.794" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-3.556" x2="3.556" y2="-3.556" width="0.127" layer="27"/>
+<wire x1="3.556" y1="-3.556" x2="3.556" y2="3.556" width="0.127" layer="27"/>
+<wire x1="3.556" y1="3.556" x2="-2.794" y2="3.556" width="0.127" layer="27"/>
+<wire x1="-2.794" y1="3.556" x2="-3.556" y2="2.794" width="0.127" layer="27"/>
+<wire x1="-3.556" y1="2.794" x2="-3.556" y2="-3.556" width="0.127" layer="27"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="22"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="2.54" y1="-3.81" x2="-3.81" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.127" layer="22"/>
+<circle x="0" y="0" radius="2.54" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.796" width="0.127" layer="22"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="4" x="2.54" y="2.54" drill="0.9" diameter="1.778"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.9" diameter="1.778"/>
+<text x="-2.54" y="4.318" size="1.27" layer="21" font="vector">&gt;NAME</text>
+<text x="-3.302" y="-5.588" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TO92" urn="urn:adsk.eagle:package:6240669/1" type="box" library_version="2">
@@ -4409,6 +4448,16 @@ type 0309, grid 2.5 mm</description>
 <packageinstance name="0207/9"/>
 </packageinstances>
 </package3d>
+<package3d name="LED5MMRGB" urn="urn:adsk.eagle:package:6240652/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="LED5MMRGB"/>
+</packageinstances>
+</package3d>
+<package3d name="PIRANHA5MM" urn="urn:adsk.eagle:package:6240782/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="PIRANHA5MM"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="78XX" urn="urn:adsk.eagle:symbol:6239516/1" library_version="2">
@@ -4447,6 +4496,39 @@ type 0309, grid 2.5 mm</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="RGBLED_CA" urn="urn:adsk.eagle:symbol:6239509/1" library_version="2">
+<wire x1="1.27" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="-6.35" y="1.27" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-3.81" size="1.778" layer="94">Red</text>
+<text x="2.54" y="1.27" size="1.778" layer="94">Grn</text>
+<text x="2.54" y="6.35" size="1.778" layer="94">Blue</text>
+<pin name="BLUE" x="7.62" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="GREEN" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="VCC" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="RED" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6322,6 +6404,43 @@ Added bigger pads to the TO-92 package</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RGBLED_CA" urn="urn:adsk.eagle:component:6240999/1" prefix="LED" library_version="2">
+<description>&lt;b&gt;RGB LED, common-anode&lt;/b&gt;&lt;p&gt;5MM Staggered pins&lt;p&gt;5mm Piranha package
+&lt;p&gt;http://www.ladyada.net/library/pcb/eaglelibrary.html&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RGBLED_CA" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="-5MM" package="LED5MMRGB">
+<connects>
+<connect gate="G$1" pin="BLUE" pad="4"/>
+<connect gate="G$1" pin="GREEN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240652/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PIRANHA" package="PIRANHA5MM">
+<connects>
+<connect gate="G$1" pin="BLUE" pad="1"/>
+<connect gate="G$1" pin="GREEN" pad="3"/>
+<connect gate="G$1" pin="RED" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240782/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
@@ -6767,200 +6886,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-RGB-THRU" urn="urn:adsk.eagle:footprint:39319/1" library_version="1">
-<description>&lt;h3&gt;LED - RGB PTH&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Area:5 x 5.8 mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Datasheet Referenced: &lt;a href="https://www.sparkfun.com/datasheets/Components/YSL-R596CR3G4B5C-C10.pdf"&gt;YSL-R596CR3G4B5C&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-RGB-CA&lt;/li&gt;
-&lt;li&gt;LED-RGB-CC&lt;/li&gt;</description>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="51" curve="-316.397181"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="22"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1" x2="2.5" y2="1" width="0.127" layer="21" curve="-316.397181"/>
-<pad name="2" x="0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="1" x="1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="3" x="-0.635" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<pad name="4" x="-1.905" y="0" drill="0.762" diameter="0.889" shape="long" rot="R90"/>
-<text x="0" y="2.8575" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.8575" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED_PIRANHA_5MM" urn="urn:adsk.eagle:footprint:39323/1" library_version="1">
-<description>&lt;h3&gt;LED 5mm PTH - Piranha&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 4&lt;/li&gt;
-&lt;li&gt;Pin pitch: 1.5mm, 5.06 mm&lt;/li&gt;
-&lt;li&gt;Area:5mm x 5mm &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="http://cdn.sparkfun.com/datasheets/Components/LED/YSRGB7A5BSW25.pdf"&gt;YSRGB7A5BSW25&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED Pirahana&lt;/li&gt;</description>
-<wire x1="-3.81" y1="-3.81" x2="3.69" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="3.69" y1="-3.81" x2="3.69" y2="3.69" width="0.127" layer="21"/>
-<wire x1="3.69" y1="3.69" x2="-2.81" y2="3.69" width="0.127" layer="21"/>
-<wire x1="-2.81" y1="3.69" x2="-3.81" y2="2.69" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.69" x2="-3.81" y2="-3.81" width="0.127" layer="21"/>
-<pad name="-" x="-2.684" y="-2.684" drill="0.9"/>
-<pad name="R" x="2.579" y="-2.696" drill="0.9"/>
-<pad name="B" x="-2.688" y="2.574" drill="0.9"/>
-<pad name="G" x="2.575" y="2.562" drill="0.9"/>
-<text x="-1.65" y="2.323" size="0.6096" layer="25" font="vector" ratio="20">B</text>
-<text x="0.962" y="2.298" size="0.6096" layer="25" font="vector" ratio="20">G</text>
-<text x="1.037" y="-3.131" size="0.6096" layer="25" font="vector" ratio="20">R</text>
-<text x="-1.524" y="-3.031" size="0.6096" layer="25" font="vector" ratio="20">-</text>
-<text x="0" y="4.064" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-4.064" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.81" y="3.4925" radius="0.254" width="0" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="LED-RGB-THRU" urn="urn:adsk.eagle:package:39368/1" type="box" library_version="1">
-<description>LED - RGB PTH
-Specifications:
-Pin count: 4
-Area:5 x 5.8 mm
-
-Datasheet Referenced: YSL-R596CR3G4B5C
-Example device(s):
-LED-RGB-CA
-LED-RGB-CC</description>
-<packageinstances>
-<packageinstance name="LED-RGB-THRU"/>
-</packageinstances>
-</package3d>
-<package3d name="LED_PIRANHA_5MM" urn="urn:adsk.eagle:package:39365/1" type="box" library_version="1">
-<description>LED 5mm PTH - Piranha
-Specifications:
-Pin count: 4
-Pin pitch: 1.5mm, 5.06 mm
-Area:5mm x 5mm 
-
-Datasheet referenced for footprint: YSRGB7A5BSW25
-
-Example device(s):
-LED Pirahana</description>
-<packageinstances>
-<packageinstance name="LED_PIRANHA_5MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LED-RGB-CC" urn="urn:adsk.eagle:symbol:39322/1" library_version="1">
-<description>&lt;h3&gt;RGB LED - Common Cathode&lt;/h3&gt;
-&lt;p&gt;4 pin Common Cathode RGB LED&lt;/p&gt;</description>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="-7.62" y="5.3975" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-5.3975" size="1.778" layer="95" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="GRN" x="-10.16" y="-2.54" visible="pin" length="short"/>
-<pin name="BLU" x="-10.16" y="0" visible="pin" length="short"/>
-<pin name="C" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="RED" x="-10.16" y="2.54" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED-RGB-CC" urn="urn:adsk.eagle:component:39397/1" prefix="D" uservalue="yes" library_version="1">
-<description>&lt;h3&gt;LED-RGB Common Cathode&lt;/h3&gt;
-
-&lt;li&gt;&lt;b&gt;Packages:&lt;/b&gt;&lt;/li&gt;
-&lt;ul&gt;&lt;li&gt; LED RGB-THRU&lt;/li&gt;
-&lt;li&gt; LED_PIRANHA_5MM&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/9264]”&gt;RGB Diffused Common Cathode- Diffuse&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/105]”&gt;RGB Diffused Common Cathode - Clear&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”[https://www.sparkfun.com/products/11679]”&gt;LED-RGB 5mm Square (Piranha)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED-RGB-CC" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="DIFFUSE" package="LED-RGB-THRU">
-<connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39368/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09434"/>
-<attribute name="VALUE" value="DIFFUSE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="CLEAR" package="LED-RGB-THRU">
-<connects>
-<connect gate="G$1" pin="BLU" pad="4"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="GRN" pad="3"/>
-<connect gate="G$1" pin="RED" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39368/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08418"/>
-<attribute name="VALUE" value="CLEAR" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="PIRANHA" package="LED_PIRANHA_5MM">
-<connects>
-<connect gate="G$1" pin="BLU" pad="B"/>
-<connect gate="G$1" pin="C" pad="-"/>
-<connect gate="G$1" pin="GRN" pad="G"/>
-<connect gate="G$1" pin="RED" pad="R"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39365/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="SF_ID" value="COM-11679" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6968,6 +6893,7 @@ LED Pirahana</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
@@ -6986,7 +6912,6 @@ LED Pirahana</description>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1"/>
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.1u"/>
-<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RGB-CC" device="CLEAR" package3d_urn="urn:adsk.eagle:package:39368/1" value="CLEAR"/>
 <part name="JP4" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
 <part name="JP5" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
 <part name="JP6" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
@@ -6995,6 +6920,7 @@ LED Pirahana</description>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:6240595/1" value="10M"/>
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:6240595/1" value="10M"/>
 <part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:6240595/1" value="10M"/>
+<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="RGBLED_CA" device="-5MM" package3d_urn="urn:adsk.eagle:package:6240652/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7012,7 +6938,8 @@ DATA</text>
 <text x="101.6" y="160.02" size="1.778" layer="91">Battery Test Circuit</text>
 <text x="198.12" y="121.92" size="1.778" layer="91">Voltage Stepdown</text>
 <text x="218.44" y="76.2" size="1.778" layer="91">Servo Connector</text>
-<text x="63.5" y="27.94" size="1.778" layer="91">Status LED Circuit</text>
+<text x="63.5" y="27.94" size="1.778" layer="91">Status LED Circuit
+(NOTE: Should be common cathode, had to use this one for the footprint)</text>
 <text x="25.4" y="76.2" size="1.778" layer="91">Screen Connector</text>
 <text x="35.56" y="137.16" size="1.778" layer="91">Buttons</text>
 </plain>
@@ -7078,10 +7005,6 @@ DATA</text>
 <attribute name="NAME" x="131.445" y="161.036" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="138.811" y="161.036" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D1" gate="G$1" x="73.66" y="15.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.28" y="9.8425" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="81.28" y="20.6375" size="1.778" layer="95" font="vector" rot="R180" align="top-left"/>
-</instance>
 <instance part="JP4" gate="G$1" x="45.72" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.435" y="133.35" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="133.35" size="1.778" layer="96" rot="R270"/>
@@ -7114,6 +7037,9 @@ DATA</text>
 <attribute name="NAME" x="77.47" y="97.5614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="77.47" y="102.362" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="LED1" gate="G$1" x="73.66" y="15.24" smashed="yes">
+<attribute name="NAME" x="67.31" y="16.51" size="1.778" layer="95" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7135,9 +7061,9 @@ DATA</text>
 <pinref part="JP3" gate="A" pin="8"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
 <label x="53.34" y="15.24" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="VCC"/>
+<wire x1="58.42" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -7301,25 +7227,23 @@ DATA</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="101.6" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="RED"/>
-<wire x1="83.82" y1="10.16" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<wire x1="83.82" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="GRN"/>
-<wire x1="83.82" y1="20.32" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="83.82" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="D1" gate="G$1" pin="BLU"/>
+<pinref part="LED1" gate="G$1" pin="GREEN"/>
 </segment>
 </net>
 <net name="BAT_TEST" class="0">
