@@ -12,8 +12,8 @@ Below are screenshots of the current revision of the schematic and board (create
 ![board](./board_ref.png)
 
 ## Features
-0.96" High contrast OLED display
-Battery monitor circuit
+0.96" High contrast OLED display  
+Battery monitor circuit  
 Easily replaceable 9v battery, expected 2-4 hour life
 
 ## TODO
