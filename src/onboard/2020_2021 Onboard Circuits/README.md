@@ -28,9 +28,10 @@ Below are screenshots of the current revision of the schematic and board of the 
 #### IMU
 [ICM20948](https://www.digikey.ca/en/products/detail/pimoroni-ltd/PIM448/10246391)
 
-#### Evironment Sensing
+#### Environment Sensing
 [BMP280](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/2651/5604371)
 
+#### Pitot Tube
 [Pitot Tube-MPXV7002DP](https://www.digikey.ca/en/products/detail/nxp-usa-inc/MPXV7002DP/1168436)
 
 #### GPS
