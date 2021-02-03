@@ -3,7 +3,7 @@
 ## Goal
 The hardware soloution will contain sensors that allow the team to accurately determine the height and position of the aircraft at any given moment. Also, the system should allow for communication with the ground station through an onboard radio. Logging of in-flight data and accurate GPS information will be necessary. Finally, the system must be able to control 16 individual servos or DC motors.
 
-The team would also like to implement autonomous flying by activating a secondary Teensy which would maintain a level flying by controlling four servos: 2 aileron, 1 rudder, 1 elevator. Activation of the secondary Teensy will be done by the Main Teensy. 
+The team would also like to implement flight stabilization by activating a secondary Teensy which would control four servos attached to control surfaces: 2 aileron, 1 rudder, and 1 elevator. Activation of the secondary Teensy will be done by the Main Teensy. 
 
 ## Design
 Below are screenshots of the current revision of the schematic and board of the Navigation and Main Teensy (created in Eagle).
@@ -50,5 +50,5 @@ Below are screenshots of the current revision of the schematic and board of the 
 - [x] Create schematic
 - [x] Layout board
 - [x] Route board
-- [x] Order board
+- [ ] Order board
 - [ ] Test board
