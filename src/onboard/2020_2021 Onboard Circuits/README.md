@@ -16,7 +16,7 @@ Below are screenshots of the current revision of the schematic and board of the 
 ### Schematic of Navigation Teensy
 ![Schematic of Navigation Teensy](./NavigationSchematic.png)
 ### Board of Navigation Teensy
-![Board of Navigation Teensy](./NagivationBoard.png)
+![Board of Navigation Teensy](./NavigationBoard.png)
 
 ## Features
 #### Teensy
