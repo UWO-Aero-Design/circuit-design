@@ -3,32 +3,47 @@
 ## Goal
 The hardware soloution will contain sensors that allow the team to accurately determine the height and position of the aircraft at any given moment. Also, the system should allow for communication with the ground station through an onboard radio. Logging of in-flight data and accurate GPS information will be necessary. Finally, the system must be able to control 16 individual servos or DC motors.
 
-## Design
-Below are screenshots of the current revision of the schematic and board (created in Eagle).
+The team would also like to implement autonomous flying by activating a secondary Teensy which would maintain a level flying by controlling four servos: 2 aileron, 1 rudder, 1 elevator. Activation of the secondary Teensy will be done by the Main Teensy. 
 
-### Schematic
-![Schematic](./schematic_ref.png)
-### Board
-![board](./board_ref.png)
+## Design
+Below are screenshots of the current revision of the schematic and board of the Navigation and Main Teensy (created in Eagle).
+
+### Schematic of Main Teensy
+![Schematic of Main Teensy](./MainTeensySchematic.png)
+### Board of Main Teensy
+![Board of Main Teensy](./MainTeensyBoard.png)
+
+### Schematic of Navigation Teensy
+![Schematic of Navigation Teensy](./NavigationSchematic.png)
+### Board of Navigation Teensy
+![Board of Navigation Teensy](./NagivationBoard.png)
 
 ## Features
+#### Teensy
+[Teensy 4.1](https://www.digikey.ca/en/products/detail/sparkfun-electronics/DEV-16996/13158152)
+
 #### Radio
 [RFM95W](https://www.adafruit.com/product/3072)
 
 #### IMU
-[MPU9250](https://www.sparkfun.com/products/13762)
+[ICM20948](https://www.digikey.ca/en/products/detail/pimoroni-ltd/PIM448/10246391)
 
 #### Evironment Sensing
-[MPL3115A2](https://www.adafruit.com/product/1893)
+[BMP280](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/2651/5604371)
+
+[Pitot Tube-MPXV7002DP](https://www.digikey.ca/en/products/detail/nxp-usa-inc/MPXV7002DP/1168436)
 
 #### GPS
-[Adafruit Ultimate GPS Breakout](https://www.adafruit.com/product/746?gclid=CjwKCAjwscDpBRBnEiwAnQ0HQNEhq5xu14W7TX12W0gVZqHBnbDJNApMf9mEeb73NOOZy2kR0mpCVRoCgI8QAvD_BwE)
+[Adafruit Ultimate GPS Breakout](https://www.digikey.ca/en/products/detail/adafruit-industries-llc/746/5353613)
 
 #### Servo Driver
-[PCA9686](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
+[PCA9685PW,112](https://www.digikey.ca/en/products/detail/nxp-usa-inc/PCA9685PW112/2034324)
+
+#### Multiplexer
+[CD74AC257M96](https://www.digikey.ca/en/products/detail/texas-instruments/CD74AC257M96/1691832)
 
 #### Power
-[L7805 and L7806](https://www.mouser.ca/datasheet/2/389/l78m-974157.pdf)
+[A5975D](https://www.digikey.ca/en/products/detail/stmicroelectronics/A5975D/4357599)
 
 ## TODO
 - [x] Select parts
