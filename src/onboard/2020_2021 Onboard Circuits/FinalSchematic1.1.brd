@@ -144,15 +144,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="100" y1="2.286" x2="100" y2="77.714" width="0" layer="20"/>
-<wire x1="100" y1="77.714" x2="97.714" y2="80" width="0" layer="20" curve="90"/>
-<wire x1="97.714" y1="80" x2="-33.35310625" y2="80" width="0" layer="20"/>
+<wire x1="-33.655" y1="0" x2="98.095" y2="0" width="0" layer="20"/>
+<wire x1="98.095" y1="0" x2="100" y2="1.905" width="0" layer="20" curve="90"/>
+<wire x1="100" y1="1.905" x2="100" y2="78.095" width="0" layer="20"/>
+<wire x1="100" y1="78.095" x2="98.095" y2="80" width="0" layer="20" curve="90"/>
+<wire x1="98.095" y1="80" x2="-33.35310625" y2="80" width="0" layer="20"/>
 <wire x1="-33.35310625" y1="80" x2="-34.969553125" y2="79.330446875" width="0" layer="20" curve="45"/>
 <wire x1="-34.969553125" y1="79.330446875" x2="-35.56" y2="77.90498125" width="0" layer="20" curve="45"/>
-<wire x1="-35.56" y1="77.90498125" x2="-35.56" y2="2.286" width="0" layer="20"/>
-<wire x1="-35.56" y1="2.286" x2="-33.274" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="-33.274" y1="0" x2="97.714" y2="0" width="0" layer="20"/>
-<wire x1="97.714" y1="0" x2="100" y2="2.286" width="0" layer="20" curve="90"/>
+<wire x1="-35.56" y1="77.90498125" x2="-35.56" y2="1.905" width="0" layer="20"/>
+<wire x1="-35.56" y1="1.905" x2="-33.655" y2="0" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
@@ -2758,14 +2758,14 @@ design rules under a new name.</description>
 <contactref element="RADIO" pad="1"/>
 <contactref element="PITOT_TUBE" pad="3"/>
 <polygon width="0.3048" layer="16">
-<vertex x="-33.274" y="80.01"/>
-<vertex x="98.044" y="80.01" curve="-90"/>
-<vertex x="100.33" y="77.724"/>
-<vertex x="100.33" y="2.286" curve="-90"/>
-<vertex x="98.044" y="0"/>
-<vertex x="-33.274" y="0" curve="-90"/>
-<vertex x="-35.56" y="2.286"/>
-<vertex x="-35.56" y="77.724" curve="-90"/>
+<vertex x="-33.655" y="80.01"/>
+<vertex x="98.425" y="80.01" curve="-90"/>
+<vertex x="100.33" y="78.105"/>
+<vertex x="100.33" y="1.905" curve="-90"/>
+<vertex x="98.425" y="0"/>
+<vertex x="-33.655" y="0" curve="-90"/>
+<vertex x="-35.56" y="1.905"/>
+<vertex x="-35.56" y="78.105" curve="-90"/>
 </polygon>
 <via x="40.64" y="43.18" extent="1-16" drill="0.35"/>
 <contactref element="R52" pad="2"/>
@@ -2999,10 +2999,9 @@ design rules under a new name.</description>
 <wire x1="-22.78463125" y1="41.91" x2="-12.7" y2="41.91" width="0.1524" layer="1"/>
 <wire x1="-12.7" y1="45.72" x2="-12.7" y2="41.91" width="0.1524" layer="1"/>
 <via x="-12.7" y="41.91" extent="1-16" drill="0.35"/>
-<wire x1="-12.7" y1="41.91" x2="31.75" y2="41.91" width="0.1524" layer="1"/>
-<wire x1="31.75" y1="41.91" x2="32.033" y2="41.91" width="0.1524" layer="1"/>
-<wire x1="32.033" y1="41.91" x2="34.573" y2="41.91" width="0.1524" layer="1"/>
-<wire x1="34.573" y1="41.91" x2="34.827" y2="41.656" width="0.1524" layer="1"/>
+<via x="34.573" y="41.91" extent="1-16" drill="0.35"/>
+<wire x1="34.827" y1="41.656" x2="34.573" y2="41.91" width="0.1524" layer="1"/>
+<wire x1="-12.7" y1="41.91" x2="34.573" y2="41.91" width="0.1524" layer="1"/>
 </signal>
 <signal name="MOSI1">
 <contactref element="RADIO" pad="7"/>
@@ -3101,14 +3100,14 @@ design rules under a new name.</description>
 <via x="91.44" y="30.48" extent="1-16" drill="0.35"/>
 <wire x1="95.25" y1="34.29" x2="91.44" y2="30.48" width="0.1524" layer="16"/>
 <polygon width="0.3048" layer="1">
-<vertex x="-33.274" y="80.01"/>
-<vertex x="98.044" y="80.01" curve="-90"/>
-<vertex x="100.33" y="77.724"/>
-<vertex x="100.33" y="2.286" curve="-90"/>
-<vertex x="98.044" y="0"/>
-<vertex x="-33.274" y="0" curve="-90"/>
-<vertex x="-35.56" y="2.286"/>
-<vertex x="-35.56" y="77.724" curve="-90"/>
+<vertex x="-33.655" y="80.01"/>
+<vertex x="98.425" y="80.01" curve="-90"/>
+<vertex x="100.33" y="78.105"/>
+<vertex x="100.33" y="1.905" curve="-90"/>
+<vertex x="98.425" y="0"/>
+<vertex x="-33.655" y="0" curve="-90"/>
+<vertex x="-35.56" y="1.905"/>
+<vertex x="-35.56" y="78.105" curve="-90"/>
 </polygon>
 <wire x1="45.72" y1="58.17" x2="35.56" y2="48.01" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="48.01" x2="35.56" y2="47.389" width="0.1524" layer="16"/>
@@ -3939,6 +3938,14 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,0cd9fcc48ada86c5"/>
+<approved hash="4,1,7cdaecc49ada8ac7"/>
+<approved hash="4,1,6cdb7cc686da9ac7"/>
+<approved hash="4,16,0cd9fcc48ada86c5"/>
+<approved hash="4,16,7cdaecc49ada8ac7"/>
+<approved hash="4,16,6cdb7cc686da9ac7"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
