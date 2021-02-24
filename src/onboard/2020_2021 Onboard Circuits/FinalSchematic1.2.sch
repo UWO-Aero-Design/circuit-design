@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -11053,21 +11067,24 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="JUMPER_TO_NAV" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="ORANGE" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150"/>
 <part name="4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
-<part name="3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="DIP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="DIP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="DIP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="DIP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="DIP_1_2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="DIP_3_4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="LEDBANK2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="LEDBANK1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
 <part name="1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1.8M"/>
+<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="430k"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="193.04" y="93.98" size="1.778" layer="91">RADIO</text>
 <text x="134.62" y="93.98" size="1.778" layer="91">GPS</text>
+<text x="45.72" y="172.72" size="1.778" layer="91">Battery Level</text>
 </plain>
 <instances>
 <instance part="TEENSY4.1" gate="G$1" x="62.23" y="43.18" smashed="yes"/>
@@ -11439,22 +11456,19 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <instance part="4" gate="A" x="93.98" y="144.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="104.14" y="138.43" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="3" gate="A" x="71.12" y="144.78" smashed="yes" rot="R90">
-<attribute name="VALUE" x="78.74" y="138.43" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="DIP1" gate="A" x="-48.26" y="149.86" smashed="yes" rot="R180">
+<instance part="DIP_1_2" gate="A" x="-48.26" y="149.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="-52.705" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-41.91" y="157.48" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIP2" gate="A" x="-48.26" y="134.62" smashed="yes" rot="R180">
+<instance part="DIP_3_4" gate="A" x="-48.26" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="-52.705" y="138.43" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-41.91" y="142.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIP3" gate="A" x="-48.26" y="119.38" smashed="yes" rot="R180">
+<instance part="LEDBANK2" gate="A" x="-48.26" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="-52.705" y="123.19" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-41.91" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIP4" gate="A" x="-48.26" y="104.14" smashed="yes" rot="R180">
+<instance part="LEDBANK1" gate="A" x="-48.26" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="-52.705" y="105.41" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-41.91" y="111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -11472,6 +11486,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </instance>
 <instance part="1" gate="G$1" x="35.56" y="144.78" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.64" y="138.43" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="40.64" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="161.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="44.45" y="165.862" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R18" gate="G$1" x="63.5" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.31" y="161.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="67.31" y="165.862" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP1" gate="A" x="68.58" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.865" y="138.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.2" y="138.43" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -11516,7 +11542,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="152.4" x2="-35.56" y2="152.4" width="0.1524" layer="91"/>
 <label x="-33.02" y="152.4" size="1.778" layer="95"/>
-<pinref part="DIP1" gate="A" pin="3"/>
+<pinref part="DIP_1_2" gate="A" pin="3"/>
 </segment>
 <segment>
 <pinref part="GREEN" gate="G$1" pin="1"/>
@@ -11569,7 +11595,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="-45.72" y1="149.86" x2="-20.32" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <label x="-40.64" y="149.86" size="1.778" layer="95"/>
-<pinref part="DIP1" gate="A" pin="2"/>
+<pinref part="DIP_1_2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="PIN11" class="0">
@@ -11603,9 +11629,9 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="96.52" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="142.24" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
-<label x="73.66" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="3" gate="A" pin="4"/>
+<wire x1="71.12" y1="142.24" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
+<label x="71.12" y="127" size="1.778" layer="95" rot="R90"/>
+<pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="DIP4" class="0">
@@ -11618,7 +11644,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="-45.72" y1="134.62" x2="-35.56" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="2"/>
 <label x="-40.64" y="134.62" size="1.778" layer="95"/>
-<pinref part="DIP2" gate="A" pin="2"/>
+<pinref part="DIP_3_4" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -11783,7 +11809,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="-45.72" y1="147.32" x2="-33.02" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <label x="-40.64" y="147.32" size="1.778" layer="95"/>
-<pinref part="DIP1" gate="A" pin="1"/>
+<pinref part="DIP_1_2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="DIP3" class="0">
@@ -11796,7 +11822,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="-45.72" y1="137.16" x2="-20.32" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <label x="-40.64" y="137.16" size="1.778" layer="95"/>
-<pinref part="DIP2" gate="A" pin="3"/>
+<pinref part="DIP_3_4" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11930,7 +11956,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="132.08" x2="-35.56" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="DIP2" gate="A" pin="1"/>
+<pinref part="DIP_3_4" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="SV4" gate="G$1" pin="3"/>
@@ -12050,6 +12076,11 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="-22.86" y1="38.1" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <label x="-20.32" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
+<label x="76.2" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_EN" class="0">
@@ -12501,7 +12532,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="116.84" x2="-40.64" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="RED" gate="G$1" pin="2"/>
-<pinref part="DIP3" gate="A" pin="1"/>
+<pinref part="LEDBANK2" gate="A" pin="1"/>
 <label x="-45.72" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12509,7 +12540,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="119.38" x2="-22.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="BLUE" gate="G$1" pin="2"/>
-<pinref part="DIP3" gate="A" pin="2"/>
+<pinref part="LEDBANK2" gate="A" pin="2"/>
 <label x="-45.72" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12517,7 +12548,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="106.68" x2="2.54" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="YELLOW" gate="G$1" pin="2"/>
-<pinref part="DIP4" gate="A" pin="3"/>
+<pinref part="LEDBANK1" gate="A" pin="3"/>
 <label x="-43.18" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12525,7 +12556,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="104.14" x2="-17.78" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="WHITE" gate="G$1" pin="2"/>
-<pinref part="DIP4" gate="A" pin="2"/>
+<pinref part="LEDBANK1" gate="A" pin="2"/>
 <label x="-43.18" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12533,7 +12564,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="-45.72" y1="121.92" x2="-2.54" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GREEN" gate="G$1" pin="2"/>
-<pinref part="DIP3" gate="A" pin="3"/>
+<pinref part="LEDBANK2" gate="A" pin="3"/>
 <label x="-45.72" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12831,9 +12862,10 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="25.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="142.24" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
-<label x="71.12" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="3" gate="A" pin="3"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="162.56" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
+<label x="50.8" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIN16" class="0">
@@ -12847,7 +12879,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="68.58" y1="142.24" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <label x="68.58" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="3" gate="A" pin="2"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="PIN17" class="0">
@@ -12859,7 +12891,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <wire x1="66.04" y1="142.24" x2="66.04" y2="132.08" width="0.1524" layer="91"/>
 <label x="66.04" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="3" gate="A" pin="1"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="PIN25" class="0">
@@ -12926,7 +12958,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <segment>
 <pinref part="ORANGE" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="101.6" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="DIP4" gate="A" pin="1"/>
+<pinref part="LEDBANK1" gate="A" pin="1"/>
 <label x="-45.72" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12995,6 +13027,11 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <junction x="-22.86" y="-30.48"/>
 <label x="-20.32" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
+<label x="17.78" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
