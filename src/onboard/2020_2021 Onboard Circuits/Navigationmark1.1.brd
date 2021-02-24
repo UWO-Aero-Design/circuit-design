@@ -164,28 +164,28 @@
 <wire x1="103.175" y1="10.16" x2="105.08" y2="12.065" width="0" layer="20" curve="90"/>
 <wire x1="105.08" y1="12.065" x2="105.08" y2="76.825" width="0" layer="20"/>
 <wire x1="105.08" y1="76.825" x2="103.175" y2="78.73" width="0" layer="20" curve="90"/>
-<text x="99.568" y="57.912" size="0.508" layer="1" font="vector">GND</text>
-<text x="99.568" y="55.88" size="0.508" layer="1" font="vector">Slct Pin</text>
-<text x="99.568" y="53.34" size="0.508" layer="1" font="vector">SDA</text>
-<text x="99.568" y="50.8" size="0.508" layer="1" font="vector">SCL</text>
-<text x="82.804" y="13.716" size="0.508" layer="1" font="vector" rot="R90">Ail2 Data</text>
-<text x="85.344" y="13.716" size="0.508" layer="1" font="vector" rot="R90">Ail1 Data</text>
-<text x="87.884" y="13.716" size="0.508" layer="1" font="vector" rot="R90">Ail2 Data</text>
-<text x="90.424" y="13.716" size="0.508" layer="1" font="vector" rot="R90">Rud Data</text>
-<text x="92.964" y="15.24" size="0.508" layer="1" font="vector" rot="R90">GND</text>
-<text x="95.504" y="15.748" size="0.508" layer="1" font="vector" rot="R90">5V</text>
-<text x="65.024" y="16.256" size="0.508" layer="1" font="vector" rot="R180">GND</text>
-<text x="64.516" y="28.448" size="0.508" layer="1" font="vector" rot="R180">GND</text>
-<text x="52.324" y="25.4" size="0.508" layer="1" font="vector">GND</text>
-<text x="52.324" y="15.24" size="0.508" layer="1" font="vector">GND</text>
-<text x="44.196" y="13.716" size="0.508" layer="1" font="vector" rot="R180">Sgnl</text>
-<text x="44.196" y="25.4" size="0.508" layer="1" font="vector" rot="R180">Sgnl</text>
-<text x="55.88" y="25.4" size="0.508" layer="1" font="vector" rot="R180">Sgnl</text>
-<text x="55.88" y="14.224" size="0.508" layer="1" font="vector" rot="R180">Sgnl</text>
-<text x="49.276" y="24.892" size="0.508" layer="1" font="vector" rot="R270">Pwr</text>
-<text x="49.276" y="18.288" size="0.508" layer="1" font="vector" rot="R270">Pwr</text>
-<text x="60.452" y="18.288" size="0.508" layer="1" font="vector" rot="R270">Pwr</text>
-<text x="60.452" y="29.464" size="0.508" layer="1" font="vector" rot="R270">Pwr</text>
+<text x="99.568" y="57.912" size="0.508" layer="21" font="vector">GND</text>
+<text x="99.568" y="55.88" size="0.508" layer="21" font="vector">Slct Pin</text>
+<text x="99.568" y="53.34" size="0.508" layer="21" font="vector">SDA</text>
+<text x="99.568" y="50.8" size="0.508" layer="21" font="vector">SCL</text>
+<text x="82.296" y="16.764" size="0.508" layer="21" font="vector" rot="R270">Ail2 Data</text>
+<text x="84.836" y="16.764" size="0.508" layer="21" font="vector" rot="R270">Ail1 Data</text>
+<text x="87.376" y="16.764" size="0.508" layer="21" font="vector" rot="R270">Ail2 Data</text>
+<text x="89.916" y="16.764" size="0.508" layer="21" font="vector" rot="R270">Rud Data</text>
+<text x="92.964" y="16.764" size="0.508" layer="21" font="vector" rot="R180">GND</text>
+<text x="95.504" y="16.764" size="0.508" layer="21" font="vector" rot="R180">5V</text>
+<text x="62.484" y="17.78" size="0.508" layer="21" font="vector" rot="R180">GND</text>
+<text x="62.992" y="28.956" size="0.508" layer="21" font="vector" rot="R180">GND</text>
+<text x="51.308" y="28.956" size="0.508" layer="21" font="vector" rot="R180">GND</text>
+<text x="51.308" y="17.78" size="0.508" layer="21" font="vector" rot="R180">GND</text>
+<text x="46.228" y="17.78" size="0.508" layer="21" font="vector" rot="R180">Sgnl</text>
+<text x="46.228" y="28.956" size="0.508" layer="21" font="vector" rot="R180">Sgnl</text>
+<text x="57.912" y="28.956" size="0.508" layer="21" font="vector" rot="R180">Sgnl</text>
+<text x="57.404" y="17.78" size="0.508" layer="21" font="vector" rot="R180">Sgnl</text>
+<text x="48.768" y="28.956" size="0.508" layer="21" font="vector" rot="R180">Pwr</text>
+<text x="48.768" y="17.78" size="0.508" layer="21" font="vector" rot="R180">Pwr</text>
+<text x="59.944" y="17.78" size="0.508" layer="21" font="vector" rot="R180">Pwr</text>
+<text x="60.452" y="28.956" size="0.508" layer="21" font="vector" rot="R180">Pwr</text>
 </plain>
 <libraries>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
@@ -2006,12 +2006,12 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="57.15" y="73.025" size="1.27" layer="27"/>
 </element>
 <element name="AILERON1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="48.26" y="15.24" smashed="yes">
-<attribute name="NAME" x="44.3738" y="17.0688" size="0.508" layer="25" ratio="10"/>
+<attribute name="NAME" x="46.9138" y="18.0848" size="0.508" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="92" x="109.22" y="-17.78" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.45" y="12.065" size="1.27" layer="27"/>
 </element>
 <element name="AILERON2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="59.69" y="15.24" smashed="yes">
-<attribute name="NAME" x="55.8038" y="17.0688" size="0.508" layer="25" ratio="10"/>
+<attribute name="NAME" x="57.8358" y="18.5928" size="0.508" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="92" x="78.74" y="-24.13" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.88" y="12.065" size="1.27" layer="27"/>
 </element>
@@ -2028,7 +2028,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="69.088" y="57.404" size="0.508" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="ELEVATOR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="48.26" y="26.67" smashed="yes">
-<attribute name="NAME" x="44.3738" y="28.4988" size="0.508" layer="25" ratio="10"/>
+<attribute name="NAME" x="46.4058" y="29.5148" size="0.508" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="92" x="99.06" y="-6.35" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.45" y="23.495" size="1.27" layer="27"/>
 </element>
@@ -2150,7 +2150,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="53.721" y="75.565" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="RUDDER" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="59.69" y="26.67" smashed="yes">
-<attribute name="NAME" x="55.8038" y="28.4988" size="0.508" layer="25" ratio="10"/>
+<attribute name="NAME" x="58.3438" y="29.5148" size="0.508" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="92" x="87.63" y="-12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.88" y="23.495" size="1.27" layer="27"/>
 </element>
@@ -2173,7 +2173,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="78.867" y="15.875" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150" x="90.17" y="12.446" smashed="yes" rot="R180">
-<attribute name="NAME" x="87.9094" y="13.462" size="0.9906" layer="25" ratio="12" rot="R270"/>
+<attribute name="NAME" x="89.154" y="10.6934" size="0.9906" layer="25" ratio="12"/>
 <attribute name="VALUE" x="91.7956" y="12.9286" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="RAW_DATA_INTPUTS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X06" package3d_urn="urn:adsk.eagle:package:22472/2" value="" x="88.9" y="19.05" smashed="yes">
