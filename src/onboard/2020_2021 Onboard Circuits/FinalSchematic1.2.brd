@@ -2830,7 +2830,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="DIP_1_2" pad="3"/>
 <wire x1="-20.32" y1="38.1" x2="-22.843" y2="38.1" width="0.3048" layer="1"/>
 <wire x1="-22.843" y1="38.1" x2="-23.715" y2="38.972" width="0.3048" layer="1"/>
-<wire x1="89.09746875" y1="26.67" x2="88.9" y2="26.67" width="0.3048" layer="16"/>
 </signal>
 <signal name="DIP1">
 <contactref element="TEENSY4.1" pad="33-MCLK2"/>
