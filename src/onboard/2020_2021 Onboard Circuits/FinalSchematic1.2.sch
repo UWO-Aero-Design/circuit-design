@@ -3839,21 +3839,6 @@ type 0309, grid 2.5 mm</description>
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="1X04" urn="urn:adsk.eagle:footprint:22258/1" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
@@ -4259,12 +4244,6 @@ type 0309, grid 2.5 mm</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model" library_version="4">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X01"/>
-</packageinstances>
-</package3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="4">
 <description>PIN HEADER</description>
 <packageinstances>
@@ -4321,15 +4300,6 @@ type 0309, grid 2.5 mm</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PINHD1" urn="urn:adsk.eagle:symbol:22381/1" library_version="4">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
 <symbol name="PINHD4" urn="urn:adsk.eagle:symbol:22257/1" library_version="4">
 <wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
@@ -4383,27 +4353,6 @@ type 0309, grid 2.5 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X1" urn="urn:adsk.eagle:component:22540/3" prefix="JP" uservalue="yes" library_version="4">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="64" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="PINHD-1X4" urn="urn:adsk.eagle:component:22499/5" prefix="JP" uservalue="yes" library_version="4">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -11522,7 +11471,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="TFI0307" package3d_urn="urn:adsk.eagle:package:23534/1" value="27uH"/>
-<part name="AUX_DATA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JUMPER_TO_NAV" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="ORANGE" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150"/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
@@ -11534,7 +11482,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BTNBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="DIPBANK1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
+<part name="DIPBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="6V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="LEDBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
@@ -11551,6 +11499,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="6" value="MIC2937A-5.0BT"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
+<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="AUX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11819,6 +11771,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TEENSY4.1" gate="G$1" pin="13-SCK/LED"/>
 <wire x1="90.17" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
 <label x="96.52" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUX" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="27-A13/SCK1"/>
+<wire x1="34.29" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<label x="27.94" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -13059,7 +13018,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="NAME" x="29.21" y="55.245" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="29.21" y="68.58" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="DIPBANK1" gate="A" x="22.86" y="43.18" smashed="yes" rot="R180">
+<instance part="DIPBANK" gate="A" x="22.86" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="34.925" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="29.21" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -13070,9 +13029,22 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND13" gate="1" x="53.34" y="10.16" smashed="yes">
 <attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="JUMPER_TO_NAV" gate="A" x="68.58" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.135" y="57.15" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="74.93" y="50.8" size="1.778" layer="96" rot="R180"/>
+<instance part="JUMPER_TO_NAV" gate="A" x="71.12" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="66.675" y="41.91" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="77.47" y="35.56" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R23" gate="G$1" x="91.44" y="20.32" smashed="yes" rot="R90">
+<attribute name="VALUE" x="94.742" y="17.272" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND9" gate="1" x="91.44" y="10.16" smashed="yes">
+<attribute name="VALUE" x="88.9" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="AUX" gate="A" x="71.12" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.47" y="55.245" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="77.47" y="68.58" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND12" gate="1" x="81.28" y="55.88" smashed="yes">
+<attribute name="VALUE" x="78.74" y="53.34" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -13082,7 +13054,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <segment>
 <wire x1="25.4" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <label x="53.34" y="48.26" size="1.778" layer="95"/>
-<pinref part="DIPBANK1" gate="A" pin="5"/>
+<pinref part="DIPBANK" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="GREEN" gate="G$1" pin="1"/>
@@ -13100,7 +13072,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="25.4" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <label x="30.48" y="45.72" size="1.778" layer="95"/>
-<pinref part="DIPBANK1" gate="A" pin="4"/>
+<pinref part="DIPBANK" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="DIP4" class="0">
@@ -13108,7 +13080,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="25.4" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="2"/>
 <label x="30.48" y="38.1" size="1.778" layer="95"/>
-<pinref part="DIPBANK1" gate="A" pin="1"/>
+<pinref part="DIPBANK" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="DIP2" class="0">
@@ -13116,7 +13088,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="25.4" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 <label x="30.48" y="43.18" size="1.778" layer="95"/>
-<pinref part="DIPBANK1" gate="A" pin="3"/>
+<pinref part="DIPBANK" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="DIP3" class="0">
@@ -13124,7 +13096,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="25.4" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <label x="30.734" y="40.894" size="1.778" layer="95"/>
-<pinref part="DIPBANK1" gate="A" pin="2"/>
+<pinref part="DIPBANK" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -13161,8 +13133,18 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </segment>
 <segment>
 <pinref part="JUMPER_TO_NAV" gate="A" pin="1"/>
-<wire x1="71.12" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
-<label x="83.82" y="38.1" size="1.778" layer="95" rot="R180"/>
+<wire x1="73.66" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<label x="86.36" y="22.86" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="91.44" y1="15.24" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AUX" gate="A" pin="1"/>
+<wire x1="73.66" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="RED" class="0">
@@ -13261,22 +13243,38 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <net name="SDA" class="0">
 <segment>
 <pinref part="JUMPER_TO_NAV" gate="A" pin="3"/>
-<wire x1="71.12" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<label x="86.36" y="43.18" size="1.778" layer="95" rot="R180"/>
+<wire x1="73.66" y1="27.94" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
+<label x="88.9" y="27.94" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="JUMPER_TO_NAV" gate="A" pin="4"/>
-<wire x1="71.12" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
-<label x="86.36" y="45.72" size="1.778" layer="95" rot="R180"/>
+<wire x1="73.66" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<label x="88.9" y="30.48" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SELECT_PIN" class="0">
 <segment>
 <pinref part="JUMPER_TO_NAV" gate="A" pin="2"/>
-<wire x1="71.12" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
-<label x="91.44" y="40.64" size="1.778" layer="95" rot="R180"/>
+<wire x1="73.66" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="109.22" y="25.4" size="1.778" layer="95" rot="R180"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<junction x="91.44" y="25.4"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="AUX" gate="A" pin="2"/>
+<wire x1="73.66" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUX" class="0">
+<segment>
+<pinref part="AUX" gate="A" pin="3"/>
+<wire x1="73.66" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<label x="81.28" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -13286,10 +13284,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="AUX_DATA" gate="G$1" x="60.96" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.31" y="73.025" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="66.04" y="62.23" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="TP1" gate="G$1" x="12.7" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.35" y="51.816" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="10.16" y="49.53" size="1.778" layer="97" rot="R270"/>
@@ -13319,13 +13313,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="15.24" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="17.78" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AUX_DATA" class="0">
-<segment>
-<pinref part="AUX_DATA" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="66.04" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="66.04" y="60.96" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="5V" class="0">
