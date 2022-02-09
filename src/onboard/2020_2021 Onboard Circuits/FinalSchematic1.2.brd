@@ -2774,6 +2774,11 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="92" x="-30.988" y="-115.316" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-34.798" y="-118.491" size="1.27" layer="27"/>
 </element>
+<element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF" x="-33.02" y="-120.904" smashed="yes">
+<attribute name="NAME" x="-34.671" y="-119.126" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="38" x="-33.02" y="-120.904" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.671" y="-123.952" size="1.27" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="5V">
@@ -2841,6 +2846,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="5V_PWR" pad="2"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="C1" pad="1"/>
+<contactref element="C2" pad="1"/>
 <wire x1="97.79" y1="34.29" x2="88.9" y2="73.66" width="0" layer="19" extent="1-1"/>
 <wire x1="88.9" y1="26.67" x2="97.79" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="68.58" y1="16.51" x2="88.9" y2="26.67" width="0" layer="19" extent="1-1"/>
@@ -2862,6 +2868,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="-30.988" y1="-89.408" x2="-33.528" y2="-89.408" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.432" y1="-93.98" x2="-30.988" y2="-89.408" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.29" y1="-103.632" x2="-27.432" y2="-93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.29" y1="-120.904" x2="-34.29" y2="-103.632" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIP1">
 <contactref element="TEENSY4.1" pad="33-MCLK2"/>
@@ -3185,6 +3192,8 @@ Please make sure your boards conform to these design rules.
 <contactref element="IC1" pad="2"/>
 <contactref element="R23" pad="1"/>
 <contactref element="AUX" pad="1"/>
+<contactref element="C2" pad="2"/>
+<wire x1="-33.528" y1="-115.316" x2="-31.75" y2="-120.904" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.798" y1="-110.236" x2="-33.528" y2="-115.316" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.972" y1="-93.98" x2="-34.798" y2="-110.236" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.448" y1="-89.408" x2="-29.972" y2="-93.98" width="0" layer="19" extent="1-1"/>
