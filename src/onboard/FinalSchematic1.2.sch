@@ -11649,18 +11649,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="30.48" y="27.94" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="GPS_FIX" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="2-OUT2"/>
-<wire x1="90.17" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
-<label x="96.52" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GPS_PPS" class="0">
 <segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="3-LRCLK2"/>
-<wire x1="34.29" y1="30.48" x2="31.75" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="5-IN2"/>
+<wire x1="34.29" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<label x="22.86" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RADIO_EN" class="0">
@@ -11675,13 +11668,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TEENSY4.1" gate="G$1" pin="30-CRX3"/>
 <wire x1="34.29" y1="35.56" x2="31.75" y2="35.56" width="0.1524" layer="91"/>
 <label x="30.48" y="35.56" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="RADIO_RST" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="6-OUT1D"/>
-<wire x1="90.17" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX2" class="0">
@@ -11700,30 +11686,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="IMU_INT" class="0">
 <segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="40-A16/CS1"/>
-<wire x1="34.29" y1="40.64" x2="31.75" y2="40.64" width="0.1524" layer="91"/>
-<label x="30.48" y="40.64" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="W_LED" class="0">
-<segment>
 <pinref part="TEENSY4.1" gate="G$1" pin="22-A8/CTX1"/>
 <wire x1="34.29" y1="60.96" x2="31.75" y2="60.96" width="0.1524" layer="91"/>
 <label x="30.48" y="60.96" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="Y_LED" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="21-A7/RX5/BCLK1"/>
-<wire x1="34.29" y1="63.5" x2="31.75" y2="63.5" width="0.1524" layer="91"/>
-<label x="30.48" y="63.5" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="R_LED" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="20-A6/TX5/LRCLK1"/>
-<wire x1="34.29" y1="66.04" x2="31.75" y2="66.04" width="0.1524" layer="91"/>
-<label x="30.48" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="B_LED" class="0">
@@ -11735,23 +11700,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="AUX_DATA" class="0">
 <segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="9-OUT1C"/>
-<wire x1="90.17" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
-<label x="96.52" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SELECT_PIN" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="15-A1/RX3/SPDIF_IN"/>
-<wire x1="34.29" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<label x="30.48" y="78.74" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="O_LED" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="23-A9/CRX1/MCLK1"/>
-<wire x1="34.29" y1="58.42" x2="31.75" y2="58.42" width="0.1524" layer="91"/>
-<label x="30.48" y="58.42" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="6-OUT1D"/>
+<wire x1="90.17" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
+<label x="96.52" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN2" class="0">
@@ -11760,12 +11711,22 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="34.29" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="30.48" y="53.34" size="1.778" layer="95" align="bottom-right"/>
 </segment>
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="15-A1/RX3/SPDIF_IN"/>
+<wire x1="34.29" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
+<label x="30.48" y="78.74" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="BTN1" class="0">
 <segment>
 <pinref part="TEENSY4.1" gate="G$1" pin="24-A10/TX6/SCL2"/>
 <wire x1="34.29" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="30.48" y="55.88" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="14-A0/TX3/SPDIF_OUT"/>
+<wire x1="34.29" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<label x="25.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATLEVEL" class="0">
@@ -11808,6 +11769,55 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TEENSY4.1" gate="G$1" pin="27-A13/SCK1"/>
 <wire x1="34.29" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="30.48" y="48.26" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="RADIO_RST" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="9-OUT1C"/>
+<wire x1="90.17" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+<label x="96.52" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="W_LED" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="38-A14/CS/IN1"/>
+<wire x1="34.29" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<label x="25.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="Y_LED" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="39-A15/CS/OUT1A"/>
+<wire x1="34.29" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<label x="25.4" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="O_LED" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="40-A16/CS1"/>
+<wire x1="34.29" y1="40.64" x2="31.75" y2="40.64" width="0.1524" layer="91"/>
+<label x="30.48" y="40.64" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="R_LED" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="41-A17/MISO1"/>
+<wire x1="34.29" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<label x="25.4" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SELECT_PIN" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="2-OUT2"/>
+<wire x1="90.17" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
+<label x="96.52" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS_FIX" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="3-LRCLK2"/>
+<wire x1="34.29" y1="30.48" x2="31.75" y2="30.48" width="0.1524" layer="91"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>

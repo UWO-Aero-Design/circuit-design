@@ -3238,17 +3238,17 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="GPS_FIX">
 <contactref element="GPSMTK3339" pad="FIX"/>
-<contactref element="TEENSY4.1" pad="2-OUT2"/>
 <wire x1="90.17" y1="53.34" x2="91.44" y2="54.61" width="0.1524" layer="16"/>
 <wire x1="91.44" y1="54.61" x2="91.44" y2="60.96" width="0.1524" layer="16"/>
 <wire x1="91.44" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="16"/>
-<wire x1="90.17" y1="49.53" x2="90.17" y2="53.34" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="3-LRCLK2"/>
+<wire x1="87.63" y1="49.53" x2="90.17" y2="53.34" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GPS_PPS">
 <contactref element="GPSMTK3339" pad="PPS"/>
-<contactref element="TEENSY4.1" pad="3-LRCLK2"/>
-<wire x1="87.63" y1="49.53" x2="87.63" y2="74.93" width="0.1524" layer="1"/>
 <wire x1="87.63" y1="74.93" x2="88.9" y2="76.2" width="0.1524" layer="1"/>
+<contactref element="TEENSY4.1" pad="5-IN2"/>
+<wire x1="82.55" y1="49.53" x2="87.63" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO_EN">
 <contactref element="RADIO" pad="3"/>
@@ -3275,8 +3275,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="44.575" y1="74.805" x2="45.72" y2="75.95" width="0.1524" layer="1"/>
 <wire x1="44.45" y1="54.61" x2="44.45" y2="74.68" width="0.1524" layer="1"/>
 <wire x1="44.45" y1="74.68" x2="44.575" y2="74.805" width="0.1524" layer="1"/>
-<contactref element="TEENSY4.1" pad="6-OUT1D"/>
-<wire x1="44.45" y1="54.61" x2="80.01" y2="49.53" width="0" layer="19" extent="1-1"/>
+<contactref element="TEENSY4.1" pad="9-OUT1C"/>
+<wire x1="72.39" y1="49.53" x2="55.88" y2="66.04" width="0.1524" layer="16"/>
+<wire x1="45.72" y1="75.95" x2="55.88" y2="66.04" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RX2">
 <contactref element="TEENSY4.1" pad="7-RX2/OUT1A"/>
@@ -3501,11 +3502,11 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="IMU_INT">
 <contactref element="IMU" pad="INT"/>
-<contactref element="TEENSY4.1" pad="40-A16/CS1"/>
 <wire x1="36.191" y1="45.72" x2="34.627" y2="44.156" width="0.1524" layer="1"/>
 <wire x1="55.88" y1="45.72" x2="57.15" y2="44.45" width="0.1524" layer="1"/>
-<wire x1="57.15" y1="44.45" x2="57.15" y2="34.29" width="0.1524" layer="1"/>
 <wire x1="36.191" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="1"/>
+<contactref element="TEENSY4.1" pad="22-A8/CTX1"/>
+<wire x1="57.15" y1="44.45" x2="87.63" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RED">
 <contactref element="RED" pad="2"/>
@@ -3549,27 +3550,27 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="W_LED">
 <contactref element="WHITE" pad="1"/>
-<contactref element="TEENSY4.1" pad="22-A8/CTX1"/>
 <wire x1="87.63" y1="30.48" x2="86.36" y2="29.21" width="0.1524" layer="16"/>
-<wire x1="87.63" y1="30.48" x2="87.63" y2="34.29" width="0.1524" layer="16"/>
 <wire x1="77.47" y1="29.21" x2="74.93" y2="26.67" width="0.1524" layer="16"/>
 <wire x1="86.36" y1="29.21" x2="77.47" y2="29.21" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="38-A14/CS/IN1"/>
+<wire x1="52.07" y1="34.29" x2="74.93" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Y_LED">
 <contactref element="YELLOW" pad="1"/>
-<contactref element="TEENSY4.1" pad="21-A7/RX5/BCLK1"/>
 <wire x1="85.09" y1="30.7848" x2="83.82" y2="29.5148" width="0.1524" layer="16"/>
-<wire x1="85.09" y1="30.7848" x2="85.09" y2="34.29" width="0.1524" layer="16"/>
 <wire x1="72.39" y1="29.5148" x2="72.39" y2="26.67" width="0.1524" layer="16"/>
 <wire x1="83.82" y1="29.5148" x2="72.39" y2="29.5148" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="39-A15/CS/OUT1A"/>
+<wire x1="54.61" y1="34.29" x2="72.39" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="R_LED">
 <contactref element="RED" pad="1"/>
-<contactref element="TEENSY4.1" pad="20-A6/TX5/LRCLK1"/>
 <wire x1="82.55" y1="31.75" x2="81.28" y2="30.48" width="0.1524" layer="16"/>
-<wire x1="82.55" y1="31.75" x2="82.55" y2="34.29" width="0.1524" layer="16"/>
 <wire x1="72.39" y1="30.48" x2="69.215" y2="27.305" width="0.1524" layer="16"/>
 <wire x1="81.28" y1="30.48" x2="72.39" y2="30.48" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="41-A17/MISO1"/>
+<wire x1="59.69" y1="34.29" x2="69.215" y2="27.305" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B_LED">
 <contactref element="BLUE" pad="1"/>
@@ -3594,31 +3595,30 @@ Please make sure your boards conform to these design rules.
 <wire x1="54.61" y1="10.16" x2="54.61" y2="11.43" width="0.6096" layer="1"/>
 </signal>
 <signal name="AUX_DATA">
-<contactref element="TEENSY4.1" pad="9-OUT1C"/>
-<wire x1="72.39" y1="49.53" x2="55.88" y2="66.04" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="6-OUT1D"/>
 </signal>
 <signal name="SELECT_PIN">
 <contactref element="NAV" pad="2"/>
-<contactref element="TEENSY4.1" pad="15-A1/RX3/SPDIF_IN"/>
 <wire x1="87.249" y1="18.161" x2="85.725" y2="19.685" width="0.1524" layer="1"/>
 <wire x1="85.725" y1="19.685" x2="85.725" y2="27.305" width="0.1524" layer="1"/>
 <wire x1="85.725" y1="27.305" x2="83.185" y2="29.845" width="0.1524" layer="1"/>
 <wire x1="83.185" y1="29.845" x2="74.295" y2="29.845" width="0.1524" layer="1"/>
-<wire x1="74.295" y1="29.845" x2="69.85" y2="34.29" width="0.1524" layer="1"/>
 <via x="87.4381" y="18.161" extent="1-16" drill="0.35"/>
 <wire x1="87.4381" y1="18.161" x2="87.249" y2="18.161" width="0.1524" layer="1"/>
 <wire x1="87.4381" y1="18.161" x2="92.329" y2="18.161" width="0.1524" layer="16"/>
 <wire x1="92.329" y1="18.161" x2="93.98" y2="16.51" width="0.1524" layer="16"/>
 <contactref element="R23" pad="2"/>
-<wire x1="87.4381" y1="18.161" x2="-27.178" y2="-110.236" width="0" layer="19" extent="1-1"/>
+<contactref element="TEENSY4.1" pad="2-OUT2"/>
+<wire x1="74.295" y1="29.845" x2="90.17" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.178" y1="-110.236" x2="87.4381" y2="18.161" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_LED">
 <contactref element="ORANGE" pad="1"/>
-<contactref element="TEENSY4.1" pad="23-A9/CRX1/MCLK1"/>
-<wire x1="90.17" y1="34.29" x2="90.17" y2="30.734" width="0.1524" layer="16"/>
 <wire x1="87.376" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="16"/>
 <wire x1="78.74" y1="27.94" x2="77.47" y2="26.67" width="0.1524" layer="16"/>
 <wire x1="90.17" y1="30.734" x2="87.376" y2="27.94" width="0.1524" layer="16"/>
+<contactref element="TEENSY4.1" pad="40-A16/CS1"/>
+<wire x1="57.15" y1="34.29" x2="77.47" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ORANGE">
 <contactref element="ORANGE" pad="2"/>
@@ -3652,6 +3652,8 @@ Please make sure your boards conform to these design rules.
 <contactref element="R22" pad="2"/>
 <contactref element="BTNBANK" pad="1"/>
 <contactref element="TEENSY4.1" pad="25-A11/RX6/SDA2"/>
+<contactref element="TEENSY4.1" pad="15-A1/RX3/SPDIF_IN"/>
+<wire x1="69.85" y1="34.29" x2="57.15" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.178" y1="-22.86" x2="57.15" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.528" y1="-39.116" x2="-27.178" y2="-22.86" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3659,7 +3661,9 @@ Please make sure your boards conform to these design rules.
 <contactref element="R19" pad="2"/>
 <contactref element="BTNBANK" pad="2"/>
 <contactref element="TEENSY4.1" pad="24-A10/TX6/SCL2"/>
-<wire x1="-27.178" y1="-18.796" x2="59.69" y2="49.53" width="0" layer="19" extent="1-1"/>
+<contactref element="TEENSY4.1" pad="14-A0/TX3/SPDIF_OUT"/>
+<wire x1="67.31" y1="34.29" x2="59.69" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.178" y1="-18.796" x2="67.31" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.988" y1="-39.116" x2="-27.178" y2="-18.796" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATLEVEL">
