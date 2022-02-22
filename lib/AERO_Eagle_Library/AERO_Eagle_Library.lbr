@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -679,6 +679,32 @@ MTK3339</text>
 <text x="20.32" y="4.318" size="0.508" layer="21" align="center">VIN</text>
 <text x="22.86" y="4.318" size="0.508" layer="21" align="center">PPS</text>
 </package>
+<package name="ADAFRUIT_BMP280_BAROMETER">
+<description>Adafruit's Barometer: BMP280 https://www.adafruit.com/product/2651</description>
+<wire x1="2.54" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="17.78" x2="17.78" y2="15.24" width="0.1524" layer="21" curve="-90"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="17.78" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="21" curve="-90"/>
+<wire x1="15.24" y1="0" x2="2.54" y2="0" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0" y1="2.54" x2="0" y2="15.24" width="0.1524" layer="21"/>
+<wire x1="0" y1="15.24" x2="2.54" y2="17.78" width="0.1524" layer="21" curve="-90"/>
+<pad name="3VO" x="3.81" y="2.54" drill="1" diameter="1.7272"/>
+<pad name="VIN" x="1.27" y="2.54" drill="1" diameter="1.7272" shape="square"/>
+<pad name="GND" x="6.35" y="2.54" drill="1" diameter="1.7272"/>
+<pad name="SCK" x="8.89" y="2.54" drill="1" diameter="1.7272"/>
+<pad name="SDO" x="11.43" y="2.54" drill="1" diameter="1.7272"/>
+<text x="1.27" y="4.064" size="0.6096" layer="21" align="center">VIN</text>
+<text x="3.81" y="4.064" size="0.6096" layer="21" align="center">3Vo</text>
+<text x="6.35" y="4.064" size="0.6096" layer="21" align="center">GND</text>
+<text x="8.89" y="4.064" size="0.6096" layer="21" align="center">SCK</text>
+<text x="11.43" y="4.064" size="0.6096" layer="21" align="center">SDO</text>
+<text x="8.89" y="10.730103125" size="3.81" layer="21" align="center">BARO</text>
+<pad name="SDI" x="13.97" y="2.54" drill="1" diameter="1.7272"/>
+<pad name="CS" x="16.51" y="2.54" drill="1" diameter="1.7272"/>
+<text x="13.97" y="4.064" size="0.6096" layer="21" align="center">SDI</text>
+<text x="16.51" y="4.064" size="0.6096" layer="21" align="center">CS</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ADAFRUIT_MPU6050_IMU">
@@ -802,6 +828,21 @@ MTK3339</text>
 <pin name="PPS" x="45.72" y="-12.7" visible="pin" length="middle" rot="R90"/>
 <wire x1="25.4" y1="2.54" x2="50.8" y2="2.54" width="0.254" layer="94"/>
 <wire x1="50.8" y1="2.54" x2="50.8" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ADAFRUIT_BMP280_BAROMETER">
+<description>Adafruit's Barometer: BMP280 https://www.adafruit.com/product/2651</description>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="VIN" x="5.08" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="3VO" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="GND" x="15.24" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<pin name="SCK" x="20.32" y="-12.7" length="middle" rot="R90"/>
+<pin name="SDO" x="25.4" y="-12.7" length="middle" rot="R90"/>
+<text x="20.32" y="0.762" size="2.286" layer="94" rot="R180" align="top-center">BMP_280</text>
+<wire x1="0" y1="0" x2="40.64" y2="0" width="0.254" layer="94"/>
+<wire x1="40.64" y1="0" x2="40.64" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<pin name="SDI" x="30.48" y="-12.7" length="middle" rot="R90"/>
+<pin name="CS" x="35.56" y="-12.7" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -968,6 +1009,28 @@ MTK3339</text>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADAFRUIT_BMP280_BAROMETER" prefix="U">
+<description>Adafruit's Barometer: BMP280 https://www.adafruit.com/product/2651</description>
+<gates>
+<gate name="G$1" symbol="ADAFRUIT_BMP280_BAROMETER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADAFRUIT_BMP280_BAROMETER">
+<connects>
+<connect gate="G$1" pin="3VO" pad="3VO"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SDI" pad="SDI"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
