@@ -163,9 +163,39 @@
 <wire x1="134.62" y1="80.518" x2="0" y2="80.518" width="0" layer="20"/>
 <wire x1="0" y1="80.518" x2="0" y2="1.397" width="0" layer="20"/>
 <circle x="22.86" y="40.64" radius="0.508" width="0.2032" layer="21"/>
-<text x="51.308" y="78.74" size="1.778" layer="21" align="center-right">ONLY CONNECT ONE SUPPLY!</text>
+<text x="51.308" y="79.248" size="1.778" layer="21" align="center-right">ONLY CONNECT ONE SUPPLY!</text>
 <text x="6.604" y="40.259" size="2.794" layer="25" rot="R90" align="center">Western Aero Design 2022</text>
 <text x="128.524" y="1.524" size="1.778" layer="25">V1.3</text>
+<text x="16.764" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">GND</text>
+<text x="19.304" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">5V</text>
+<text x="21.844" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">SIG</text>
+<text x="16.764" y="29.972" size="0.9906" layer="25" rot="R90" align="center-left">GND</text>
+<text x="19.304" y="29.972" size="0.9906" layer="25" rot="R90" align="center-left">5V</text>
+<text x="21.844" y="29.972" size="0.9906" layer="25" rot="R90" align="center-left">SIG</text>
+<text x="36.576" y="77.089" size="0.9906" layer="25" align="bottom-center">5V</text>
+<text x="42.672" y="77.089" size="0.9906" layer="25" align="bottom-center">5V</text>
+<text x="48.26" y="77.089" size="0.9906" layer="25" align="bottom-center">22V</text>
+<text x="36.068" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">5V</text>
+<text x="38.608" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">D1</text>
+<text x="41.148" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">D2</text>
+<text x="43.688" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">D3</text>
+<text x="46.228" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">D4</text>
+<text x="50.8" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">G</text>
+<text x="53.34" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">B</text>
+<text x="55.88" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">R</text>
+<text x="58.42" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">Y</text>
+<text x="60.96" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">W</text>
+<text x="63.5" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">O</text>
+<text x="66.04" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">GND</text>
+<text x="69.088" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">5V</text>
+<text x="71.628" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">B1</text>
+<text x="74.168" y="2.54" size="0.9906" layer="25" rot="R180" align="bottom-center">B2</text>
+<text x="97.536" y="72.136" size="0.9906" layer="25" rot="R180" align="bottom-center">GND</text>
+<text x="92.456" y="72.136" size="0.9906" layer="25" rot="R180" align="bottom-center">AUX</text>
+<text x="80.518" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">SCL</text>
+<text x="83.058" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">SDA</text>
+<text x="85.598" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">SEL</text>
+<text x="88.138" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">GND</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -2308,13 +2338,13 @@ Please make sure your boards conform to these design rules.
 </autorouter>
 <elements>
 <element name="BLUE" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="80" x="53.34" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.832" y="10.6934" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="52.7304" y="9.6774" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="54.356" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="53.3654" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="C10" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF" x="26.416" y="36.576" smashed="yes">
-<attribute name="NAME" x="23.114" y="37.465" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="26.416" y="34.925" size="1.27" layer="25" ratio="10" rot="R180" align="bottom-center"/>
 <attribute name="POPULARITY" value="38" x="100.076" y="-33.274" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="21.336" y="37.465" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="26.416" y="38.227" size="1.27" layer="27" ratio="10" align="bottom-center"/>
 </element>
 <element name="C12" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="470uF" x="59.944" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.595" y="71.12" size="0.9906" layer="25" ratio="10" rot="R270" align="bottom-center"/>
@@ -2323,8 +2353,8 @@ Please make sure your boards conform to these design rules.
 </element>
 <element name="GPSMTK3339" library="AERO_Eagle_Library" package="ADAFRUIT_MTK3339_GPS" value="ADAFRUIT_MTK3339_GPS" x="97.536" y="38.608" smashed="yes" rot="R270"/>
 <element name="GREEN" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150" x="50.8" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.2986" y="10.668" size="0.508" layer="25" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="50.1904" y="10.6934" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="51.7906" y="11.557" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="50.8254" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="IC3" library="A5975D" package="SOIC127P600X170-9N" value="A5975D" x="54.356" y="71.12" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="A5975D" x="133.096" y="102.87" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2339,36 +2369,36 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="53.086" y="71.12" size="0.508" layer="27" rot="R90" align="center"/>
 </element>
 <element name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="14.224" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.7274" y="15.748" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="29.9974" y="15.8496" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="13.208" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="14.1986" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="10.668" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.9814" y="11.43" size="0.508" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="30.2514" y="12.0396" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="9.652" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="10.6426" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="7.112" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.7274" y="8.128" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="30.5054" y="7.7216" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="6.096" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.8544" y="7.0866" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="21.336" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.2194" y="22.352" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="29.9974" y="22.4536" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="20.32" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="21.3106" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="17.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.9814" y="19.05" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="30.2514" y="18.6436" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="16.764" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="17.7546" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="3.556" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="2.2606" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="30.0736" y="4.0386" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<attribute name="NAME" x="28.956" y="2.5146" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9306" y="3.5306" size="0.9906" layer="27" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="28.448" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.4734" y="29.718" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="30.2514" y="29.3116" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="27.432" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="28.4226" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="24.892" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.2194" y="25.908" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="29.9974" y="26.0096" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="28.9814" y="23.876" size="0.9906" layer="25" ratio="12" align="top-center"/>
+<attribute name="VALUE" x="28.9814" y="24.8666" size="0.9906" layer="27" ratio="12" align="center"/>
 </element>
 <element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="54.356" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="53.3146" size="0.9906" layer="25" ratio="12" rot="R180" align="bottom-center"/>
@@ -2379,7 +2409,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="31.0134" y="39.9034" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="R21" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="10K" x="34.544" y="39.878" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.56" y="40.1066" size="0.9906" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="35.56" y="39.8526" size="0.9906" layer="25" ratio="12" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="34.5186" y="39.8526" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="57.912" smashed="yes" rot="R180">
@@ -2387,28 +2417,28 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="28.9306" y="57.8866" size="0.9906" layer="27" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="R32" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="4.7k" x="42.672" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.402" y="45.6946" size="0.508" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="41.5036" y="46.4566" size="0.508" layer="27" ratio="12" rot="R180"/>
+<attribute name="NAME" x="43.815" y="48.2346" size="0.9906" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="42.6466" y="48.2346" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R33" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="4.7k" x="42.672" y="32.004" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.4086" y="29.972" size="0.508" layer="25" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="42.3164" y="26.6954" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="43.7896" y="32.004" size="0.762" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="42.6974" y="32.0294" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="R34" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="44.196" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.4754" y="13.208" size="0.508" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="43.7134" y="13.3096" size="0.508" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="45.2374" y="11.684" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="44.2214" y="11.6586" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R35" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="47.752" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.5234" y="13.208" size="0.508" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="48.2346" y="10.0584" size="0.508" layer="27" ratio="12" rot="R90"/>
+<attribute name="NAME" x="48.7934" y="11.684" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="47.7266" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R36" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="40.64" y="11.684" smashed="yes" rot="MR270">
-<attribute name="NAME" x="39.8526" y="11.684" size="0.508" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="40.6146" y="12.2936" size="0.508" layer="27" ratio="12" rot="R270"/>
+<element name="R36" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="40.64" y="11.684" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.6814" y="11.684" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="40.6654" y="11.6586" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R37" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="37.592" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.37" y="11.2014" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="39.2684" y="10.4394" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="38.608" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="37.6174" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="220" x="28.956" y="61.468" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.956" y="60.4266" size="0.9906" layer="25" ratio="12" rot="R180" align="bottom-center"/>
@@ -2444,8 +2474,8 @@ Please make sure your boards conform to these design rules.
 </element>
 <element name="RADIO" library="AERO_Eagle_Library" package="ADAFRUIT_RFM95W_LORA_RADIO" value="ADAFRUIT_RFM95W_LORA_RADIO" x="127.508" y="65.532" smashed="yes" rot="R270"/>
 <element name="RED" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150" x="55.88" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="55.118" y="11.7094" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="55.0164" y="12.7254" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="56.896" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="55.9054" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="SERVO_DRIVER" library="PCA9685PW_112" package="SOP65P640X110-28N" value="PCA9685PW,112" x="18.796" y="39.624" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="PCA9685PW,112" x="-23.114" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2456,13 +2486,13 @@ Please make sure your boards conform to these design rules.
 <attribute name="MANUFACTURER_PART_NUMBER" value="PCA9685PW,112" x="-23.114" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="771-PCA9685PW,112" x="-23.114" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9685PW112/?qs=6YAT8rHPFU9wZqiAeiOMZw%3D%3D" x="-23.114" y="-44.196" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.51" y="38.354" size="0.508" layer="25" align="center"/>
-<attribute name="VALUE" x="16.51" y="39.37" size="0.508" layer="27" align="center"/>
+<attribute name="NAME" x="13.462" y="39.624" size="0.508" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="12.7" y="39.624" size="0.508" layer="27" rot="R90" align="bottom-center"/>
 </element>
 <element name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="3.556" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-39.116" y="87.376" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-39.116" y="87.376" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="4.064" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.367" y="3.556" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-39.116" y="87.376" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-39.116" y="87.376" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-39.116" y="87.376" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2471,7 +2501,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="68.58" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-39.116" y="158.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-39.116" y="158.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="69.596" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="68.58" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-39.116" y="158.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-39.116" y="158.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-39.116" y="158.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2480,7 +2510,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="65.024" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-49.276" y="155.194" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-49.276" y="155.194" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="65.532" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="65.024" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-49.276" y="155.194" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-49.276" y="155.194" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-49.276" y="155.194" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2489,7 +2519,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="54.356" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-59.436" y="144.526" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-59.436" y="144.526" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="55.372" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="54.356" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-59.436" y="144.526" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-59.436" y="144.526" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-59.436" y="144.526" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2498,7 +2528,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="75.692" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-69.596" y="165.862" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-69.596" y="165.862" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="76.708" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="75.692" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-69.596" y="165.862" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-69.596" y="165.862" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-69.596" y="165.862" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2507,7 +2537,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV0" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="50.8" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-79.756" y="140.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-79.756" y="140.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="51.308" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="50.8" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-79.756" y="140.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-79.756" y="140.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-79.756" y="140.97" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2516,7 +2546,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="61.468" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="1.524" y="157.988" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="1.524" y="157.988" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="62.484" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="61.468" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="1.524" y="157.988" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="1.524" y="157.988" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="1.524" y="157.988" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2525,7 +2555,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV11" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="14.224" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-8.636" y="110.744" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-8.636" y="110.744" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="14.732" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.367" y="14.224" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-8.636" y="110.744" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-8.636" y="110.744" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-8.636" y="110.744" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2534,7 +2564,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="10.668" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-49.276" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-49.276" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.351" y="11.43" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.367" y="10.668" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-49.276" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-49.276" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-49.276" y="94.488" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2543,7 +2573,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV15" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="28.448" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-59.436" y="112.268" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-59.436" y="112.268" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.351" y="29.21" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="28.448" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-59.436" y="112.268" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-59.436" y="112.268" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-59.436" y="112.268" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2552,7 +2582,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV14" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="24.892" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-69.596" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-69.596" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="25.4" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="24.892" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-69.596" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-69.596" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-69.596" y="108.712" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2561,7 +2591,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="7.112" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-79.756" y="90.932" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-79.756" y="90.932" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="7.62" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.367" y="7.112" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-79.756" y="90.932" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-79.756" y="90.932" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-79.756" y="90.932" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2570,7 +2600,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV13" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="21.336" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="1.524" y="111.506" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="1.524" y="111.506" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="21.844" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="21.336" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="1.524" y="111.506" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="1.524" y="111.506" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="1.524" y="111.506" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2579,7 +2609,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="72.136" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-8.636" y="162.306" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-8.636" y="162.306" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="73.152" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="72.136" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-8.636" y="162.306" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-8.636" y="162.306" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-8.636" y="162.306" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2588,7 +2618,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="57.912" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-18.796" y="148.082" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-18.796" y="148.082" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.605" y="58.42" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="57.912" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-18.796" y="148.082" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-18.796" y="148.082" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-18.796" y="148.082" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2597,7 +2627,7 @@ Please make sure your boards conform to these design rules.
 <element name="SV12" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA03-1" package3d_urn="urn:adsk.eagle:package:8339/1" value="" x="19.304" y="17.78" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-28.956" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-28.956" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.351" y="18.542" size="0.508" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="15.24" y="17.78" size="0.762" layer="25" ratio="10" rot="R270" align="top-center"/>
 <attribute name="OC_FARNELL" value="unknown" x="-28.956" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-28.956" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULARITY" value="48" x="-28.956" y="107.95" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2608,12 +2638,12 @@ Please make sure your boards conform to these design rules.
 <attribute name="SPICEPREFIX" value="X" x="55.372" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="WHITE" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="90" x="60.96" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.198" y="11.9634" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="60.6044" y="13.4874" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="61.976" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="60.9854" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="YELLOW" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150" x="58.42" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="57.658" y="10.4394" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="58.0644" y="13.4874" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="59.436" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="58.4454" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="TFI0307" package3d_urn="urn:adsk.eagle:package:23534/1" value="27uH" x="54.356" y="65.024" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.2874" y="63.754" size="0.9906" layer="25" ratio="10" align="top-left"/>
@@ -2622,38 +2652,38 @@ Please make sure your boards conform to these design rules.
 <attribute name="VALUE" x="54.3814" y="64.9786" size="0.9906" layer="27" ratio="10" align="center"/>
 </element>
 <element name="NAV" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="84.328" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="88.0872" y="75.8952" size="0.508" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="84.2772" y="75.2602" size="0.9906" layer="25" ratio="10" rot="R180" align="top-center"/>
 <attribute name="POPULARITY" value="91" x="84.328" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="89.408" y="76.835" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="ORANGE" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="150" x="63.5" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.738" y="10.6934" size="0.508" layer="25" ratio="12"/>
-<attribute name="VALUE" x="62.6364" y="13.4874" size="0.508" layer="27" ratio="12"/>
+<attribute name="NAME" x="64.516" y="11.7094" size="0.508" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="63.5254" y="11.7094" size="0.9906" layer="27" ratio="12" rot="R90" align="center"/>
 </element>
 <element name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF" x="53.721" y="77.216" smashed="yes">
 <attribute name="NAME" x="56.261" y="78.232" size="0.9906" layer="25" ratio="10" align="center-left"/>
 <attribute name="POPULARITY" value="38" x="53.721" y="77.216" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="56.261" y="76.708" size="0.9906" layer="27" ratio="10" align="center-left"/>
 </element>
-<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1.8M" x="80.772" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.788" y="68.3006" size="0.508" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="82.3976" y="69.0626" size="0.508" layer="27" ratio="12" rot="R180"/>
+<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1.8M" x="80.772" y="67.056" smashed="yes" rot="R180">
+<attribute name="NAME" x="80.772" y="66.0146" size="0.9906" layer="25" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="80.7466" y="67.0306" size="0.9906" layer="27" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="430k" x="91.948" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="93.472" y="67.2846" size="0.508" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="94.0816" y="68.5546" size="0.508" layer="27" ratio="12" rot="R180"/>
+<element name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="430k" x="91.948" y="67.056" smashed="yes" rot="R180">
+<attribute name="NAME" x="91.948" y="66.0146" size="0.9906" layer="25" ratio="12" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="91.9226" y="67.0306" size="0.9906" layer="27" ratio="12" rot="R180" align="center"/>
 </element>
 <element name="U$1" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="127" y="7.62" smashed="yes"/>
 <element name="U$2" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="127" y="72.898" smashed="yes"/>
 <element name="U$3" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="7.62" y="72.898" smashed="yes"/>
 <element name="U$4" library="holes" library_urn="urn:adsk.eagle:library:237" package="3,0" package3d_urn="urn:adsk.eagle:package:14277/1" value="" x="7.62" y="7.62" smashed="yes"/>
 <element name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="70.104" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.3994" y="14.224" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="69.6214" y="13.3096" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="71.1454" y="11.684" size="0.9906" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="70.1294" y="11.6586" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="R22" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="74.295" y="11.684" smashed="yes" rot="R270">
-<attribute name="NAME" x="75.5904" y="14.224" size="0.9906" layer="25" ratio="12" rot="R270"/>
-<attribute name="VALUE" x="73.8124" y="13.3096" size="0.9906" layer="27" ratio="12" rot="R270"/>
+<attribute name="NAME" x="75.3364" y="11.684" size="0.9906" layer="25" ratio="12" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="74.3204" y="11.6586" size="0.9906" layer="27" ratio="12" rot="R270" align="center"/>
 </element>
 <element name="BTNBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="71.628" y="4.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="71.5772" y="6.2992" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
@@ -2675,10 +2705,10 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="0" x="58.42" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.31" y="7.239" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="48.26" y="73.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.0888" y="77.5462" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="POPULARITY" value="92" x="48.26" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="45.085" y="77.47" size="1.27" layer="27" rot="R270"/>
+<element name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="48.26" y="73.152" smashed="yes" rot="R270">
+<attribute name="NAME" x="50.0888" y="77.0382" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="92" x="48.26" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="45.085" y="76.962" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="5V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="PTR1B1,27" x="35.052" y="52.324" smashed="yes">
 <attribute name="NAME" x="34.417" y="53.34" size="1.27" layer="25" ratio="10"/>
@@ -2698,11 +2728,11 @@ Please make sure your boards conform to these design rules.
 <attribute name="TP_SIGNAL_NAME" value="" x="38.608" y="44.196" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.973" y="43.434" size="0.0254" layer="27"/>
 </element>
-<element name="22V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="PTR1B1,27" x="48.26" y="69.088" smashed="yes">
-<attribute name="NAME" x="47.625" y="67.056" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="2" x="48.26" y="69.088" size="1.778" layer="27" display="off"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="48.26" y="69.088" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="47.625" y="68.326" size="0.0254" layer="27"/>
+<element name="22V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="PTR1B1,27" x="48.26" y="68.58" smashed="yes">
+<attribute name="NAME" x="47.625" y="66.548" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="2" x="48.26" y="68.58" size="1.778" layer="27" display="off"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="48.26" y="68.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="47.625" y="67.818" size="0.0254" layer="27"/>
 </element>
 <element name="6V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="PTR1B1,27" x="35.052" y="66.548" smashed="yes">
 <attribute name="NAME" x="34.417" y="67.564" size="1.27" layer="25" ratio="10"/>
@@ -2725,12 +2755,12 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="38" x="37.592" y="57.912" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="34.544" y="59.563" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="89.408" y="76.708" smashed="yes" rot="R180">
-<attribute name="NAME" x="91.948" y="75.4126" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="91.0336" y="77.1906" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="2.2k" x="89.408" y="77.216" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.408" y="78.2066" size="0.9906" layer="25" ratio="12" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="91.0336" y="77.6986" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="AUX" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="94.996" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="98.8822" y="71.8312" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="94.9452" y="75.2602" size="0.9906" layer="25" ratio="10" rot="R180" align="top-center"/>
 <attribute name="POPULARITY" value="92" x="94.996" y="73.66" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="98.806" y="76.835" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -3015,7 +3045,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="TEENSY4.1" pad="34-RX8"/>
 <contactref element="R36" pad="2"/>
 <contactref element="DIPBANK" pad="3"/>
-<wire x1="40.64" y1="7.874" x2="41.148" y2="7.366" width="0.2032" layer="1"/>
+<wire x1="40.64" y1="7.874" x2="41.148" y2="7.366" width="0.2032" layer="16"/>
 <wire x1="41.148" y1="7.366" x2="41.148" y2="4.064" width="0.2032" layer="1"/>
 <wire x1="74.168" y1="60.96" x2="72.136" y2="58.928" width="0.2032" layer="16"/>
 <wire x1="78.232" y1="60.96" x2="74.168" y2="60.96" width="0.2032" layer="16"/>
@@ -3025,8 +3055,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="62.992" y1="21.844" x2="60.96" y2="19.812" width="0.2032" layer="16"/>
 <wire x1="60.96" y1="19.812" x2="43.688" y2="19.812" width="0.2032" layer="16"/>
 <wire x1="43.688" y1="19.812" x2="42.672" y2="18.796" width="0.2032" layer="16"/>
-<wire x1="42.672" y1="9.906" x2="40.64" y2="7.874" width="0.2032" layer="16"/>
+<wire x1="42.672" y1="9.906" x2="40.64" y2="7.874" width="0.2032" layer="1"/>
 <wire x1="42.672" y1="18.796" x2="42.672" y2="9.906" width="0.2032" layer="16"/>
+<via x="41.148" y="7.366" extent="1-16" drill="0.35"/>
+<via x="42.672" y="9.906" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="DIP3">
 <contactref element="TEENSY4.1" pad="35-TX8"/>
@@ -3674,7 +3706,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="82.804" y1="69.596" x2="82.804" y2="64.008" width="0.2032" layer="16"/>
 <wire x1="85.852" y1="60.96" x2="93.472" y2="60.96" width="0.2032" layer="16"/>
 <wire x1="82.804" y1="64.008" x2="85.852" y2="60.96" width="0.2032" layer="16"/>
-<wire x1="85.598" y1="76.708" x2="85.598" y2="73.66" width="0.2032" layer="1"/>
+<wire x1="85.598" y1="77.216" x2="85.598" y2="73.66" width="0.2032" layer="1"/>
 </signal>
 <signal name="O_LED">
 <contactref element="ORANGE" pad="1"/>
@@ -3738,13 +3770,13 @@ Please make sure your boards conform to these design rules.
 <contactref element="R1" pad="1"/>
 <contactref element="R18" pad="2"/>
 <contactref element="TEENSY4.1" pad="26-A12/MOSI1"/>
-<wire x1="84.582" y1="68.58" x2="86.36" y2="68.58" width="0.2032" layer="16"/>
-<wire x1="86.36" y1="68.58" x2="88.138" y2="68.58" width="0.2032" layer="16"/>
 <wire x1="93.472" y1="48.26" x2="95.504" y2="50.292" width="0.2032" layer="16"/>
-<wire x1="88.9" y1="66.04" x2="86.36" y2="68.58" width="0.2032" layer="16"/>
 <wire x1="95.504" y1="50.292" x2="95.504" y2="64.008" width="0.2032" layer="16"/>
 <wire x1="95.504" y1="64.008" x2="93.472" y2="66.04" width="0.2032" layer="16"/>
 <wire x1="93.472" y1="66.04" x2="88.9" y2="66.04" width="0.2032" layer="16"/>
+<wire x1="88.9" y1="66.04" x2="88.138" y2="66.802" width="0.2032" layer="16"/>
+<wire x1="88.138" y1="66.802" x2="88.138" y2="67.056" width="0.2032" layer="16"/>
+<wire x1="84.582" y1="67.056" x2="88.138" y2="67.056" width="0.2032" layer="16"/>
 </signal>
 <signal name="MISO0">
 <contactref element="TEENSY4.1" pad="12-MISO/MQSL"/>
@@ -3796,9 +3828,10 @@ Please make sure your boards conform to these design rules.
 <contactref element="IC3" pad="8"/>
 <contactref element="C3" pad="1"/>
 <contactref element="22V" pad="TP"/>
-<wire x1="48.26" y1="73.66" x2="49.276" y2="73.66" width="1.778" layer="1"/>
+<wire x1="48.768" y1="73.152" x2="49.276" y2="73.66" width="1.778" layer="1"/>
+<wire x1="48.768" y1="73.152" x2="48.26" y2="73.152" width="1.778" layer="1"/>
 <wire x1="49.276" y1="73.66" x2="50.8" y2="73.66" width="1.778" layer="1"/>
-<wire x1="48.26" y1="76.2" x2="48.26" y2="73.66" width="1.778" layer="1"/>
+<wire x1="48.26" y1="75.692" x2="48.26" y2="73.152" width="1.778" layer="1"/>
 <wire x1="56.05210625" y1="78.2447" x2="56.06480625" y2="78.232" width="0.2032" layer="16"/>
 <wire x1="56.06480625" y1="78.232" x2="59.944" y2="78.232" width="0.2032" layer="16"/>
 <wire x1="52.451" y1="77.216" x2="53.4797" y2="78.2447" width="0.2032" layer="16"/>
@@ -3808,10 +3841,10 @@ Please make sure your boards conform to these design rules.
 <wire x1="61.976" y1="69.596" x2="66.04" y2="65.532" width="0.2032" layer="16"/>
 <wire x1="66.04" y1="65.532" x2="73.66" y2="65.532" width="0.2032" layer="16"/>
 <contactref element="R1" pad="2"/>
-<wire x1="76.962" y1="68.58" x2="76.708" y2="68.58" width="0.2032" layer="16"/>
-<wire x1="76.708" y1="68.58" x2="73.66" y2="65.532" width="0.2032" layer="16"/>
-<wire x1="48.26" y1="69.088" x2="49.276" y2="69.088" width="0.2032" layer="1"/>
-<wire x1="49.276" y1="69.088" x2="50.8" y2="70.612" width="0.2032" layer="1"/>
+<wire x1="76.962" y1="67.056" x2="75.184" y2="67.056" width="0.2032" layer="16"/>
+<wire x1="75.184" y1="67.056" x2="73.66" y2="65.532" width="0.2032" layer="16"/>
+<wire x1="48.26" y1="68.58" x2="48.768" y2="68.58" width="0.2032" layer="1"/>
+<wire x1="48.768" y1="68.58" x2="50.8" y2="70.612" width="0.2032" layer="1"/>
 <wire x1="50.8" y1="70.612" x2="50.8" y2="73.66" width="0.2032" layer="1"/>
 <wire x1="52.451" y1="73.832" x2="52.451" y2="77.216" width="1.524" layer="1"/>
 <wire x1="52.451" y1="73.832" x2="52.279" y2="73.66" width="1.524" layer="1"/>
