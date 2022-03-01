@@ -3291,6 +3291,7 @@ Please make sure your boards conform to these design rules.
 <contactref element="TEENSY4.1" pad="GND4"/>
 <contactref element="TEENSY4.1" pad="GND5"/>
 <contactref element="TEENSY4.1" pad="GND6"/>
+<contactref element="C1" pad="2"/>
 </signal>
 <signal name="GPS_EN">
 <contactref element="GPSMTK3339" pad="EN"/>
