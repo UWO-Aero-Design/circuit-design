@@ -2695,20 +2695,18 @@ Please make sure your boards conform to these design rules.
 <attribute name="POPULARITY" value="69" x="41.148" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="47.498" y="7.239" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="6V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="42.672" y="73.152" smashed="yes" rot="R270">
+<element name="6V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="6V_PWR" x="42.672" y="73.152" smashed="yes" rot="R270">
 <attribute name="NAME" x="44.5008" y="77.0382" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="42.672" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="39.497" y="76.962" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LEDBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X07" package3d_urn="urn:adsk.eagle:package:22477/2" value="" x="58.42" y="4.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.3692" y="6.2992" size="1.27" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="0" x="58.42" y="4.064" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.31" y="7.239" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="48.26" y="73.152" smashed="yes" rot="R270">
+<element name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="22V_PWR" x="48.26" y="73.152" smashed="yes" rot="R270">
 <attribute name="NAME" x="50.0888" y="77.0382" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="48.26" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="45.085" y="76.962" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="5V" library="testpad" library_urn="urn:adsk.eagle:library:385" package="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2" value="PTR1B1,27" x="35.052" y="52.324" smashed="yes">
 <attribute name="NAME" x="34.417" y="53.34" size="1.27" layer="25" ratio="10"/>
@@ -2740,10 +2738,9 @@ Please make sure your boards conform to these design rules.
 <attribute name="TP_SIGNAL_NAME" value="" x="35.052" y="66.548" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.417" y="65.786" size="0.0254" layer="27"/>
 </element>
-<element name="5V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="36.576" y="73.152" smashed="yes" rot="R270">
+<element name="5V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="5V_PWR" x="36.576" y="73.152" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.4048" y="77.0382" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULARITY" value="92" x="36.576" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="33.401" y="76.962" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/2" value="MIC29310-5.0BT" x="45.212" y="61.468" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.9138" y="66.548" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -3107,12 +3104,9 @@ Please make sure your boards conform to these design rules.
 <contactref element="SV10" pad="3"/>
 <contactref element="SV11" pad="3"/>
 <contactref element="SV9" pad="3"/>
-<contactref element="TEENSY4.1" pad="GND1"/>
-<contactref element="TEENSY4.1" pad="GND3"/>
 <contactref element="R53" pad="1"/>
 <contactref element="C12" pad="2"/>
 <contactref element="SERVO_DRIVER" pad="14"/>
-<contactref element="TEENSY4.1" pad="GND6"/>
 <contactref element="NAV" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="IC3" pad="3"/>
@@ -3124,9 +3118,6 @@ Please make sure your boards conform to these design rules.
 <contactref element="R35" pad="1"/>
 <contactref element="R19" pad="1"/>
 <contactref element="R22" pad="1"/>
-<contactref element="TEENSY4.1" pad="GND2"/>
-<contactref element="TEENSY4.1" pad="GND4"/>
-<contactref element="TEENSY4.1" pad="GND5"/>
 <contactref element="6V_PWR" pad="3"/>
 <contactref element="LEDBANK" pad="1"/>
 <contactref element="22V_PWR" pad="3"/>
@@ -3294,6 +3285,12 @@ Please make sure your boards conform to these design rules.
 <via x="44.196" y="55.372" extent="1-16" drill="0.5"/>
 <via x="34.036" y="76.708" extent="1-16" drill="0.5"/>
 <contactref element="GND" pad="TP"/>
+<contactref element="TEENSY4.1" pad="GND1"/>
+<contactref element="TEENSY4.1" pad="GND2"/>
+<contactref element="TEENSY4.1" pad="GND3"/>
+<contactref element="TEENSY4.1" pad="GND4"/>
+<contactref element="TEENSY4.1" pad="GND5"/>
+<contactref element="TEENSY4.1" pad="GND6"/>
 </signal>
 <signal name="GPS_EN">
 <contactref element="GPSMTK3339" pad="EN"/>
@@ -3375,25 +3372,25 @@ Please make sure your boards conform to these design rules.
 </signal>
 <signal name="PWM13">
 <contactref element="SERVO_DRIVER" pad="20"/>
-<contactref element="R13" pad="1"/>
 <wire x1="17.821" y1="36.686" x2="17.821" y2="35.0036125" width="0.2032" layer="1"/>
 <wire x1="17.821" y1="35.0036125" x2="19.0726125" y2="33.752" width="0.2032" layer="1"/>
 <wire x1="19.0726125" y1="33.752" x2="26.72425" y2="33.752" width="0.2032" layer="1"/>
 <wire x1="29.464" y1="31.01225" x2="29.464" y2="22.352" width="0.2032" layer="1"/>
 <wire x1="29.464" y1="22.352" x2="30.48" y2="21.336" width="0.2032" layer="1"/>
-<wire x1="30.48" y1="21.336" x2="32.766" y2="21.336" width="0.2032" layer="1"/>
 <wire x1="26.72425" y1="33.752" x2="29.464" y2="31.01225" width="0.2032" layer="1"/>
+<contactref element="R13" pad="1"/>
+<wire x1="30.48" y1="21.336" x2="32.766" y2="21.336" width="0.2032" layer="1"/>
 </signal>
 <signal name="PWM12">
 <contactref element="SERVO_DRIVER" pad="19"/>
-<contactref element="R14" pad="1"/>
 <wire x1="17.171" y1="36.686" x2="17.171" y2="34.73436875" width="0.2032" layer="1"/>
 <wire x1="17.171" y1="34.73436875" x2="18.80336875" y2="33.102" width="0.2032" layer="1"/>
 <wire x1="18.80336875" y1="33.102" x2="26.455" y2="33.102" width="0.2032" layer="1"/>
 <wire x1="28.956" y1="30.601" x2="28.956" y2="18.796" width="0.2032" layer="1"/>
 <wire x1="28.956" y1="18.796" x2="29.972" y2="17.78" width="0.2032" layer="1"/>
-<wire x1="29.972" y1="17.78" x2="32.766" y2="17.78" width="0.2032" layer="1"/>
 <wire x1="26.455" y1="33.102" x2="28.956" y2="30.601" width="0.2032" layer="1"/>
+<contactref element="R14" pad="1"/>
+<wire x1="29.972" y1="17.78" x2="32.766" y2="17.78" width="0.2032" layer="1"/>
 </signal>
 <signal name="PWM11">
 <contactref element="SERVO_DRIVER" pad="18"/>
@@ -3702,9 +3699,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="57.359" y1="74.93" x2="68.58" y2="74.93" width="0.381" layer="1"/>
 <wire x1="68.58" y1="74.93" x2="72.136" y2="74.93" width="0.381" layer="1"/>
 </signal>
-<signal name="AUX_DATA">
-<contactref element="TEENSY4.1" pad="6-OUT1D"/>
-</signal>
 <signal name="SELECT_PIN">
 <contactref element="NAV" pad="2"/>
 <contactref element="R23" pad="2"/>
@@ -3875,9 +3869,6 @@ Please make sure your boards conform to these design rules.
 <wire x1="41.91" y1="64.77" x2="42.672" y2="64.008" width="1.778" layer="1"/>
 <wire x1="35.052" y1="66.548" x2="37.592" y2="66.548" width="0.2032" layer="1"/>
 <wire x1="37.592" y1="66.548" x2="39.624" y2="68.58" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$4">
-<contactref element="AUX" pad="2"/>
 </signal>
 <signal name="AUX">
 <contactref element="AUX" pad="3"/>

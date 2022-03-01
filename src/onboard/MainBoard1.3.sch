@@ -11582,10 +11582,10 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="BTNBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="DIPBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="6V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="6V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="6V_PWR"/>
 <part name="LEDBANK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="22V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="22V_PWR"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="5V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SDA" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
@@ -11593,7 +11593,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="22V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="6V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="5V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="5V_PWR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="5V_PWR"/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="6" value="MIC29310-5.0BT"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10uF"/>
@@ -11618,8 +11618,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </plain>
 <instances>
 <instance part="TEENSY4.1" gate="G$1" x="62.23" y="43.18" smashed="yes"/>
-<instance part="GND10" gate="1" x="60.96" y="-7.62" smashed="yes">
-<attribute name="VALUE" x="58.42" y="-10.16" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="67.31" y="-6.604" smashed="yes">
+<attribute name="VALUE" x="64.77" y="-9.144" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11688,31 +11688,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="96.52" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND1"/>
-<wire x1="54.61" y1="-5.08" x2="57.15" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="0" x2="54.61" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND3"/>
-<wire x1="59.69" y1="0" x2="59.69" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND6"/>
-<wire x1="67.31" y1="0" x2="67.31" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="-5.08" x2="64.77" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND2"/>
-<wire x1="62.23" y1="-5.08" x2="60.96" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-5.08" x2="59.69" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="0" x2="57.15" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="-5.08" x2="59.69" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND4"/>
-<wire x1="62.23" y1="0" x2="62.23" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="62.23" y1="-5.08" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="TEENSY4.1" gate="G$1" pin="GND5"/>
-<wire x1="64.77" y1="0" x2="64.77" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="64.77" y1="-5.08" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<junction x="60.96" y="-5.08"/>
-</segment>
-</net>
 <net name="GPS_EN" class="0">
 <segment>
 <pinref part="TEENSY4.1" gate="G$1" pin="4-BCLK2"/>
@@ -11767,13 +11742,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TEENSY4.1" gate="G$1" pin="37-PWM"/>
 <wire x1="90.17" y1="5.08" x2="96.52" y2="5.08" width="0.1524" layer="91"/>
 <label x="96.52" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AUX_DATA" class="0">
-<segment>
-<pinref part="TEENSY4.1" gate="G$1" pin="6-OUT1D"/>
-<wire x1="90.17" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
-<label x="96.52" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN2" class="0">
@@ -11879,6 +11847,28 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="TEENSY4.1" gate="G$1" pin="38-A14/CS/IN1"/>
 <wire x1="34.29" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="25.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND1"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND2"/>
+<wire x1="54.61" y1="0" x2="57.15" y2="0" width="0.1524" layer="91"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND3"/>
+<wire x1="57.15" y1="0" x2="59.69" y2="0" width="0.1524" layer="91"/>
+<junction x="57.15" y="0"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND4"/>
+<wire x1="59.69" y1="0" x2="62.23" y2="0" width="0.1524" layer="91"/>
+<junction x="59.69" y="0"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND5"/>
+<wire x1="62.23" y1="0" x2="64.77" y2="0" width="0.1524" layer="91"/>
+<junction x="62.23" y="0"/>
+<pinref part="TEENSY4.1" gate="G$1" pin="GND6"/>
+<wire x1="64.77" y1="0" x2="67.31" y2="0" width="0.1524" layer="91"/>
+<junction x="64.77" y="0"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="67.31" y1="0" x2="67.31" y2="-4.064" width="0.1524" layer="91"/>
+<junction x="67.31" y="0"/>
 </segment>
 </net>
 </nets>
@@ -12185,29 +12175,25 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="PWM13" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SERVO_DRIVER" gate="G$1" pin="LED13"/>
 <wire x1="86.36" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <label x="91.44" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <label x="22.86" y="27.94" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="PWM12" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="SERVO_DRIVER" gate="G$1" pin="LED12"/>
 <wire x1="86.36" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
 <label x="91.44" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <label x="22.86" y="10.16" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
@@ -12655,11 +12641,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </instance>
 <instance part="6V_PWR" gate="A" x="-7.62" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="-7.239" y="81.28" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="0" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="22V_PWR" gate="A" x="10.16" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.541" y="81.28" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="17.78" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND14" gate="1" x="12.7" y="68.58" smashed="yes">
 <attribute name="VALUE" x="10.16" y="66.04" size="1.778" layer="96"/>
@@ -12680,7 +12664,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </instance>
 <instance part="5V_PWR" gate="A" x="-25.4" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="-25.019" y="81.28" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="-17.78" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC1" gate="A1" x="20.32" y="-20.32" smashed="yes">
 <attribute name="NAME" x="12.7" y="-14.605" size="1.778" layer="95"/>
@@ -13410,12 +13393,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="91.44" y="25.4"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="AUX" gate="A" pin="2"/>
-<wire x1="73.66" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="AUX" class="0">
 <segment>
 <pinref part="AUX" gate="A" pin="3"/>
@@ -13503,6 +13480,30 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,2,73.5679,5.77427,SV8,,,,,"/>
+<approved hash="113,2,74.273,41.3343,SV10,,,,,"/>
+<approved hash="113,2,41.253,59.1143,SV15,,,,,"/>
+<approved hash="113,2,41.253,41.3343,SV14,,,,,"/>
+<approved hash="113,2,73.5679,23.5543,SV9,,,,,"/>
+<approved hash="113,2,41.253,23.5543,SV13,,,,,"/>
+<approved hash="113,2,106.588,41.3343,SV6,,,,,"/>
+<approved hash="113,2,139.608,41.3343,SV2,,,,,"/>
+<approved hash="113,2,41.253,5.77427,SV12,,,,,"/>
+<approved hash="113,2,106.588,23.5543,SV5,,,,,"/>
+<approved hash="113,2,106.588,3.23427,SV4,,,,,"/>
+<approved hash="113,2,139.608,23.5543,SV1,,,,,"/>
+<approved hash="113,2,106.588,59.1143,SV7,,,,,"/>
+<approved hash="113,2,139.608,3.23427,SV0,,,,,"/>
+<approved hash="113,2,139.608,59.1143,SV3,,,,,"/>
+<approved hash="113,2,74.1793,59.1143,SV11,,,,,"/>
+<approved hash="113,5,73.3806,24.8564,NAV,,,,,"/>
+<approved hash="113,5,23.2029,59.4639,BTNBANK,,,,,"/>
+<approved hash="113,5,23.6269,41.6839,DIPBANK,,,,,"/>
+<approved hash="113,5,23.2743,18.8239,LEDBANK,,,,,"/>
+<approved hash="113,5,73.4229,59.4639,AUX,,,,,"/>
+<approved hash="113,3,73.66,29.5504,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
