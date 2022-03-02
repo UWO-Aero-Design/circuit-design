@@ -13486,22 +13486,22 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,2,73.5679,5.80475,SV8,,,,,"/>
-<approved hash="113,2,74.273,41.3647,SV10,,,,,"/>
-<approved hash="113,2,41.253,59.1447,SV15,,,,,"/>
-<approved hash="113,2,41.253,41.3647,SV14,,,,,"/>
-<approved hash="113,2,73.5679,23.5847,SV9,,,,,"/>
-<approved hash="113,2,41.253,23.5847,SV13,,,,,"/>
-<approved hash="113,2,106.588,41.3647,SV6,,,,,"/>
-<approved hash="113,2,139.608,41.3647,SV2,,,,,"/>
-<approved hash="113,2,41.253,5.80475,SV12,,,,,"/>
-<approved hash="113,2,106.588,23.5847,SV5,,,,,"/>
-<approved hash="113,2,106.588,3.26475,SV4,,,,,"/>
-<approved hash="113,2,139.608,23.5847,SV1,,,,,"/>
-<approved hash="113,2,106.588,59.1447,SV7,,,,,"/>
-<approved hash="113,2,139.608,3.26475,SV0,,,,,"/>
-<approved hash="113,2,139.608,59.1447,SV3,,,,,"/>
-<approved hash="113,2,74.1793,59.1447,SV11,,,,,"/>
+<approved hash="113,2,73.5679,5.77427,SV8,,,,,"/>
+<approved hash="113,2,74.273,41.3343,SV10,,,,,"/>
+<approved hash="113,2,41.253,59.1143,SV15,,,,,"/>
+<approved hash="113,2,41.253,41.3343,SV14,,,,,"/>
+<approved hash="113,2,73.5679,23.5543,SV9,,,,,"/>
+<approved hash="113,2,41.253,23.5543,SV13,,,,,"/>
+<approved hash="113,2,106.588,41.3343,SV6,,,,,"/>
+<approved hash="113,2,139.608,41.3343,SV2,,,,,"/>
+<approved hash="113,2,41.253,5.77427,SV12,,,,,"/>
+<approved hash="113,2,106.588,23.5543,SV5,,,,,"/>
+<approved hash="113,2,106.588,3.23427,SV4,,,,,"/>
+<approved hash="113,2,139.608,23.5543,SV1,,,,,"/>
+<approved hash="113,2,106.588,59.1143,SV7,,,,,"/>
+<approved hash="113,2,139.608,3.23427,SV0,,,,,"/>
+<approved hash="113,2,139.608,59.1143,SV3,,,,,"/>
+<approved hash="113,2,74.1793,59.1143,SV11,,,,,"/>
 <approved hash="113,5,73.3806,24.8564,NAV,,,,,"/>
 <approved hash="113,5,23.2029,59.4639,BTNBANK,,,,,"/>
 <approved hash="113,5,23.6269,41.6839,DIPBANK,,,,,"/>
