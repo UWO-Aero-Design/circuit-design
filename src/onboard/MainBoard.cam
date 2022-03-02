@@ -1,12 +1,12 @@
 {
     "author": {
-        "email": "support.eagle@autodesk.com",
-        "name": "Autodesk EAGLE"
+        "email": "jstjean3@uwo.ca",
+        "name": "Jeff St. Jean"
     },
     "description": {
         "EN": "EAGLE default 2 layer CAM job."
     },
-    "output_type": "directory",
+    "output_type": "zip",
     "outputs": [
         {
             "filename_prefix": "CAMOutputs/GerberFiles",
@@ -277,7 +277,7 @@
             ]
         }
     ],
-    "timestamp": "2019-07-17T17:48:33",
+    "timestamp": "2022-03-02T18:14:01",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"

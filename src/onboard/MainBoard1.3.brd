@@ -164,8 +164,8 @@
 <wire x1="0" y1="80.518" x2="0" y2="1.397" width="0" layer="20"/>
 <circle x="22.86" y="40.64" radius="0.508" width="0.2032" layer="21"/>
 <text x="50.927" y="79.248" size="1.778" layer="21" align="center-right">ONLY CONNECT ONE SUPPLY!</text>
-<text x="6.604" y="40.259" size="2.794" layer="25" rot="R90" align="center">Western Aero Design 2022</text>
-<text x="128.524" y="1.524" size="1.778" layer="25">V1.3</text>
+<text x="4.064" y="40.259" size="3.048" layer="25" rot="R90" align="center">Western Aero Design</text>
+<text x="130.556" y="1.524" size="1.016" layer="25" align="center-right">Jeff St. Jean</text>
 <text x="16.764" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">GND</text>
 <text x="19.304" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">5V</text>
 <text x="21.844" y="49.276" size="0.9906" layer="25" rot="R270" align="center-left">SIG</text>
@@ -196,6 +196,11 @@
 <text x="83.058" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">SDA</text>
 <text x="85.598" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">SEL</text>
 <text x="88.138" y="72.136" size="0.9906" layer="25" rot="R90" align="center-right">GND</text>
+<text x="8.636" y="40.259" size="2.032" layer="25" rot="R90" align="center">PA Embedded System V1.3</text>
+<text x="19.304" y="1.016" size="0.762" layer="25" align="center">3A max all servos</text>
+<text x="48.26" y="30.988" size="0.762" layer="25" rot="R90" align="center">ICM20948</text>
+<text x="51.816" y="51.308" size="0.762" layer="25" rot="R90" align="center">BMP280</text>
+<text x="108.204" y="52.832" size="0.762" layer="25" rot="R90" align="center">RFM95W</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
