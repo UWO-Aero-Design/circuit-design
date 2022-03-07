@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -158,10 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="134.62" y2="0" width="0" layer="20"/>
-<wire x1="134.62" y1="0" x2="134.62" y2="80.518" width="0" layer="20"/>
-<wire x1="134.62" y1="80.518" x2="0" y2="80.518" width="0" layer="20"/>
-<wire x1="0" y1="80.518" x2="0" y2="1.397" width="0" layer="20"/>
+<wire x1="129.54" y1="80.518" x2="5.08" y2="80.518" width="0" layer="20"/>
+<wire x1="5.08" y1="80.518" x2="0" y2="75.438" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="75.438" x2="0" y2="5.08" width="0" layer="20"/>
+<wire x1="0" y1="5.08" x2="5.08" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="5.08" y1="0" x2="129.54" y2="0" width="0" layer="20"/>
+<wire x1="129.54" y1="0" x2="134.62" y2="5.08" width="0" layer="20" curve="90"/>
+<wire x1="134.62" y1="5.08" x2="134.62" y2="75.438" width="0" layer="20"/>
+<wire x1="134.62" y1="75.438" x2="129.54" y2="80.518" width="0" layer="20" curve="90"/>
 <circle x="22.86" y="40.64" radius="0.508" width="0.2032" layer="21"/>
 <text x="50.927" y="79.248" size="1.778" layer="21" align="center-right">ONLY CONNECT ONE SUPPLY!</text>
 <text x="4.064" y="40.259" size="3.048" layer="25" rot="R90" align="center">Western Aero Design</text>
