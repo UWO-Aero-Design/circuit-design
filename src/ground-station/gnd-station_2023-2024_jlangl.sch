@@ -161,7 +161,7 @@
 <libraries>
 <library name="AERO_Eagle_Library">
 <packages>
-<package name="ADAFRUIT_RFM95W_LORA_RADIO">
+<package name="ADAFRUIT_RFM95W_LORA_RADIO" use_placeholder="yes">
 <description>Adafruit's LoRa Radio: RFM95W https://www.adafruit.com/product/3072</description>
 <wire x1="25.4" y1="0" x2="25.4" y2="-26.67" width="0.1524" layer="21"/>
 <wire x1="22.86" y1="-29.21" x2="2.54" y2="-29.21" width="0.1524" layer="21"/>
@@ -260,7 +260,7 @@
 <library name="Resistor">
 <description>&lt;B&gt;Resistors, Potentiometers, TrimPot</description>
 <packages>
-<package name="RESC1005X40" urn="urn:adsk.eagle:footprint:16378540/2">
+<package name="RESC1005X40" urn="urn:adsk.eagle:footprint:16378540/2" use_placeholder="yes">
 <description>Chip, 1.05 X 0.54 X 0.40 mm body
 &lt;p&gt;Chip package with body size 1.05 X 0.54 X 0.40 mm&lt;/p&gt;</description>
 <wire x1="0.55" y1="0.636" x2="-0.55" y2="0.636" width="0.127" layer="21"/>
@@ -274,7 +274,7 @@
 <text x="0" y="1.271" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.271" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC1608X60" urn="urn:adsk.eagle:footprint:16378537/2">
+<package name="RESC1608X60" urn="urn:adsk.eagle:footprint:16378537/2" use_placeholder="yes">
 <description>Chip, 1.60 X 0.82 X 0.60 mm body
 &lt;p&gt;Chip package with body size 1.60 X 0.82 X 0.60 mm&lt;/p&gt;</description>
 <wire x1="0.85" y1="0.8009" x2="-0.85" y2="0.8009" width="0.127" layer="21"/>
@@ -288,7 +288,7 @@
 <text x="0" y="1.4359" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.4359" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC2012X65" urn="urn:adsk.eagle:footprint:16378532/2">
+<package name="RESC2012X65" urn="urn:adsk.eagle:footprint:16378532/2" use_placeholder="yes">
 <description>Chip, 2.00 X 1.25 X 0.65 mm body
 &lt;p&gt;Chip package with body size 2.00 X 1.25 X 0.65 mm&lt;/p&gt;</description>
 <wire x1="1.075" y1="1.0241" x2="-1.075" y2="1.0241" width="0.127" layer="21"/>
@@ -302,7 +302,7 @@
 <text x="0" y="1.6591" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.6591" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC3216X70" urn="urn:adsk.eagle:footprint:16378539/2">
+<package name="RESC3216X70" urn="urn:adsk.eagle:footprint:16378539/2" use_placeholder="yes">
 <description>Chip, 3.20 X 1.60 X 0.70 mm body
 &lt;p&gt;Chip package with body size 3.20 X 1.60 X 0.70 mm&lt;/p&gt;</description>
 <wire x1="1.7" y1="1.2217" x2="-1.7" y2="1.2217" width="0.127" layer="21"/>
@@ -316,7 +316,7 @@
 <text x="0" y="1.8567" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8567" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC3224X71" urn="urn:adsk.eagle:footprint:16378536/2">
+<package name="RESC3224X71" urn="urn:adsk.eagle:footprint:16378536/2" use_placeholder="yes">
 <description>Chip, 3.20 X 2.49 X 0.71 mm body
 &lt;p&gt;Chip package with body size 3.20 X 2.49 X 0.71 mm&lt;/p&gt;</description>
 <wire x1="1.675" y1="1.6441" x2="-1.675" y2="1.6441" width="0.127" layer="21"/>
@@ -330,7 +330,7 @@
 <text x="0" y="2.2791" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2791" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC5025X71" urn="urn:adsk.eagle:footprint:16378538/2">
+<package name="RESC5025X71" urn="urn:adsk.eagle:footprint:16378538/2" use_placeholder="yes">
 <description>Chip, 5.00 X 2.50 X 0.71 mm body
 &lt;p&gt;Chip package with body size 5.00 X 2.50 X 0.71 mm&lt;/p&gt;</description>
 <wire x1="2.575" y1="1.6491" x2="-2.575" y2="1.6491" width="0.127" layer="21"/>
@@ -344,7 +344,7 @@
 <text x="0" y="2.2841" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2841" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESC6332X71" urn="urn:adsk.eagle:footprint:16378533/2">
+<package name="RESC6332X71" urn="urn:adsk.eagle:footprint:16378533/2" use_placeholder="yes">
 <description>Chip, 6.30 X 3.20 X 0.71 mm body
 &lt;p&gt;Chip package with body size 6.30 X 3.20 X 0.71 mm&lt;/p&gt;</description>
 <wire x1="3.225" y1="1.9991" x2="-3.225" y2="1.9991" width="0.127" layer="21"/>
@@ -358,7 +358,7 @@
 <text x="0" y="2.6341" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.6341" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:footprint:16378542/2">
+<package name="RESAD1176W63L850D250B" urn="urn:adsk.eagle:footprint:16378542/2" use_placeholder="yes">
 <description>AXIAL Resistor, 11.76 mm pitch, 8.5 mm body length, 2.5 mm body diameter
 &lt;p&gt;AXIAL Resistor package with 11.76 mm pitch, 0.63 mm lead diameter, 8.5 mm body length and 2.5 mm body diameter&lt;/p&gt;</description>
 <wire x1="-4.25" y1="1.25" x2="-4.25" y2="-1.25" width="0.127" layer="21"/>
@@ -376,7 +376,7 @@
 <text x="0" y="1.885" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.885" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF3515" urn="urn:adsk.eagle:footprint:16378534/2">
+<package name="RESMELF3515" urn="urn:adsk.eagle:footprint:16378534/2" use_placeholder="yes">
 <description>MELF, 3.50 mm length, 1.52 mm diameter
 &lt;p&gt;MELF Resistor package with 3.50 mm length and 1.52 mm diameter&lt;/p&gt;</description>
 <wire x1="1.105" y1="1.1825" x2="-1.105" y2="1.1825" width="0.127" layer="21"/>
@@ -390,7 +390,7 @@
 <text x="0" y="1.8175" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.8175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF2014" urn="urn:adsk.eagle:footprint:16378535/2">
+<package name="RESMELF2014" urn="urn:adsk.eagle:footprint:16378535/2" use_placeholder="yes">
 <description>MELF, 2.00 mm length, 1.40 mm diameter
 &lt;p&gt;MELF Resistor package with 2.00 mm length and 1.40 mm diameter&lt;/p&gt;</description>
 <wire x1="0.5189" y1="1.114" x2="-0.5189" y2="1.114" width="0.127" layer="21"/>
@@ -404,7 +404,7 @@
 <text x="0" y="1.749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.749" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF5924" urn="urn:adsk.eagle:footprint:16378541/2">
+<package name="RESMELF5924" urn="urn:adsk.eagle:footprint:16378541/2" use_placeholder="yes">
 <description>MELF, 5.90 mm length, 2.45 mm diameter
 &lt;p&gt;MELF Resistor package with 5.90 mm length and 2.45 mm diameter&lt;/p&gt;</description>
 <wire x1="2.1315" y1="1.639" x2="-2.1315" y2="1.639" width="0.127" layer="21"/>
@@ -418,7 +418,7 @@
 <text x="0" y="2.274" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.274" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESMELF3218" urn="urn:adsk.eagle:footprint:16378531/2">
+<package name="RESMELF3218" urn="urn:adsk.eagle:footprint:16378531/2" use_placeholder="yes">
 <description>MELF, 3.20 mm length, 1.80 mm diameter
 &lt;p&gt;MELF Resistor package with 3.20 mm length and 1.80 mm diameter&lt;/p&gt;</description>
 <wire x1="0.8815" y1="1.314" x2="-0.8815" y2="1.314" width="0.127" layer="21"/>
@@ -432,7 +432,7 @@
 <text x="0" y="1.949" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.949" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="RESAD724W46L381D178B" urn="urn:adsk.eagle:footprint:16378530/2">
+<package name="RESAD724W46L381D178B" urn="urn:adsk.eagle:footprint:16378530/2" use_placeholder="yes">
 <description>Axial Resistor, 7.24 mm pitch, 3.81 mm body length, 1.78 mm body diameter
 &lt;p&gt;Axial Resistor package with 7.24 mm pitch (lead spacing), 0.46 mm lead diameter, 3.81 mm body length and 1.78 mm body diameter&lt;/p&gt;</description>
 <wire x1="-2.16" y1="1.015" x2="-2.16" y2="-1.015" width="0.127" layer="21"/>
@@ -916,7 +916,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED_5MM" urn="urn:adsk.eagle:footprint:39305/1" library_version="1">
+<package name="LED_5MM" urn="urn:adsk.eagle:footprint:39305/1" library_version="1" use_placeholder="yes">
 <description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
 5 mm, round
 &lt;p&gt;Specifications:
@@ -942,7 +942,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
-<package name="LED_3MM" urn="urn:adsk.eagle:footprint:39306/1" library_version="1">
+<package name="LED_3MM" urn="urn:adsk.eagle:footprint:39306/1" library_version="1" use_placeholder="yes">
 <description>&lt;h3&gt;LED 3MM PTH&lt;/h3&gt;
 
 3 mm, round.
@@ -974,7 +974,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LED-1206" urn="urn:adsk.eagle:footprint:39304/1" library_version="1">
+<package name="LED-1206" urn="urn:adsk.eagle:footprint:39304/1" library_version="1" use_placeholder="yes">
 <description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
 
 1206, surface mount. 
@@ -995,7 +995,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/1" library_version="1">
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:39307/1" library_version="1" use_placeholder="yes">
 <description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
 0603, surface mount.
 &lt;p&gt;Specifications:
@@ -1015,7 +1015,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
 </package>
-<package name="LED_10MM" urn="urn:adsk.eagle:footprint:39308/1" library_version="1">
+<package name="LED_10MM" urn="urn:adsk.eagle:footprint:39308/1" library_version="1" use_placeholder="yes">
 <description>&lt;B&gt;LED 10mm PTH&lt;/B&gt;&lt;p&gt;
 10 mm, round
 &lt;p&gt;Specifications:
@@ -1036,7 +1036,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="5.715" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="FKIT-LED-1206" urn="urn:adsk.eagle:footprint:39309/1" library_version="1">
+<package name="FKIT-LED-1206" urn="urn:adsk.eagle:footprint:39309/1" library_version="1" use_placeholder="yes">
 <description>&lt;B&gt;LED 1206 SMT&lt;/B&gt;&lt;p&gt;
 1206, surface mount
 &lt;p&gt;Specifications:
@@ -1066,7 +1066,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
 <rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
 </package>
-<package name="LED_3MM-NS" urn="urn:adsk.eagle:footprint:39310/1" library_version="1">
+<package name="LED_3MM-NS" urn="urn:adsk.eagle:footprint:39310/1" library_version="1" use_placeholder="yes">
 <description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
 
 3 mm, round, no silk outline of package
@@ -1094,7 +1094,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
-<package name="LED_5MM-KIT" urn="urn:adsk.eagle:footprint:39311/1" locally_modified="yes" library_version="1">
+<package name="LED_5MM-KIT" urn="urn:adsk.eagle:footprint:39311/1" locally_modified="yes" library_version="1" use_placeholder="yes">
 <description>&lt;h3&gt;LED 5mm KIT PTH&lt;/h3&gt;
 &lt;p&gt;
 &lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
@@ -1399,7 +1399,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygonshape>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 </package>
-<package name="LED-1206-BOTTOM" urn="urn:adsk.eagle:footprint:39312/1" locally_modified="yes" library_version="1">
+<package name="LED-1206-BOTTOM" urn="urn:adsk.eagle:footprint:39312/1" locally_modified="yes" library_version="1" use_placeholder="yes">
 <description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
 
 1206, surface mount. 
@@ -1827,7 +1827,7 @@ LED</description>
 <description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="2">
+<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
 <wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
@@ -1841,7 +1841,7 @@ LED</description>
 <circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="2.8"/>
 </package>
-<package name="3,0" urn="urn:adsk.eagle:footprint:14240/1" library_version="2">
+<package name="3,0" urn="urn:adsk.eagle:footprint:14240/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
@@ -1856,7 +1856,7 @@ LED</description>
 <text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
 <hole x="0" y="0" drill="3"/>
 </package>
-<package name="3,3" urn="urn:adsk.eagle:footprint:14241/1" library_version="2">
+<package name="3,3" urn="urn:adsk.eagle:footprint:14241/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
@@ -1870,7 +1870,7 @@ LED</description>
 <circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.3"/>
 </package>
-<package name="3,6" urn="urn:adsk.eagle:footprint:14242/1" library_version="2">
+<package name="3,6" urn="urn:adsk.eagle:footprint:14242/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.6 mm with drill center</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
@@ -1884,7 +1884,7 @@ LED</description>
 <circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.6"/>
 </package>
-<package name="4,1" urn="urn:adsk.eagle:footprint:14243/1" library_version="2">
+<package name="4,1" urn="urn:adsk.eagle:footprint:14243/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.1 mm with drill center</description>
 <wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
@@ -1898,7 +1898,7 @@ LED</description>
 <circle x="0" y="0" radius="2.15" width="0.1524" layer="21"/>
 <hole x="0" y="0" drill="4.1"/>
 </package>
-<package name="4,5" urn="urn:adsk.eagle:footprint:14244/1" library_version="2">
+<package name="4,5" urn="urn:adsk.eagle:footprint:14244/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.5 mm with drill center</description>
 <wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
 <wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
@@ -1917,7 +1917,7 @@ LED</description>
 <text x="-1.27" y="-4.445" size="1.27" layer="48">4,5</text>
 <hole x="0" y="0" drill="4.5"/>
 </package>
-<package name="5,0" urn="urn:adsk.eagle:footprint:14245/1" library_version="2">
+<package name="5,0" urn="urn:adsk.eagle:footprint:14245/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
 <wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
 <wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
@@ -1936,7 +1936,7 @@ LED</description>
 <text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
 <hole x="0" y="0" drill="5"/>
 </package>
-<package name="3,2" urn="urn:adsk.eagle:footprint:14246/1" library_version="2">
+<package name="3,2" urn="urn:adsk.eagle:footprint:14246/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
 <wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
@@ -1950,7 +1950,7 @@ LED</description>
 <circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
 <hole x="0" y="0" drill="3.2"/>
 </package>
-<package name="4,3" urn="urn:adsk.eagle:footprint:14247/1" library_version="2">
+<package name="4,3" urn="urn:adsk.eagle:footprint:14247/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.3 mm with drill center</description>
 <wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
@@ -1964,7 +1964,7 @@ LED</description>
 <circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
 <hole x="0" y="0" drill="4.3"/>
 </package>
-<package name="5,5" urn="urn:adsk.eagle:footprint:14248/1" library_version="2">
+<package name="5,5" urn="urn:adsk.eagle:footprint:14248/1" library_version="2" use_placeholder="yes">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.5 mm with drill center</description>
 <wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
 <wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
@@ -2170,7 +2170,7 @@ LED</description>
 </library>
 <library name="ArduinoNanoV30">
 <packages>
-<package name="ARDUINO_NANO">
+<package name="ARDUINO_NANO" use_placeholder="yes">
 <description>&lt;b&gt;Arduino Nano V3.0 Module&lt;/b&gt;
 
 &lt;p&gt;The Nano was designed and is being produced by &lt;a href="http://www.gravitech.us/arna30wiatp.html"&gt;Gravitech&lt;/a&gt;.&lt;/p&gt;&lt;br&gt;</description>
@@ -2618,149 +2618,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </deviceset>
 </devicesets>
 </library>
-<library name="IC_Power-Management">
-<description>&lt;B&gt;Voltage Regulators, Drivers, Switching controllers</description>
-<packages>
-<package name="TO220V" urn="urn:adsk.eagle:footprint:16154/1">
-<description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
-<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.127" layer="21"/>
-<circle x="-4.4958" y="-3.7084" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
-<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.175" y="-3.175" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.905" y="-3.175" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
-<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
-<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
-<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
-<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
-<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
-<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
-<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
-</package>
-<package name="SOT230P700X170-4" urn="urn:adsk.eagle:footprint:16494935/1">
-<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.70 mm body
-&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.70 mm&lt;/p&gt;</description>
-<circle x="-2.9276" y="3.253" radius="0.25" width="0" layer="21"/>
-<wire x1="-1.85" y1="3.003" x2="-1.85" y2="3.35" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="21"/>
-<wire x1="1.85" y1="3.35" x2="1.85" y2="1.8486" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="-3.003" x2="-1.85" y2="-3.35" width="0.12" layer="21"/>
-<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.12" layer="21"/>
-<wire x1="1.85" y1="-3.35" x2="1.85" y2="-1.8486" width="0.12" layer="21"/>
-<wire x1="1.85" y1="-3.35" x2="-1.85" y2="-3.35" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.12" layer="51"/>
-<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="51"/>
-<wire x1="1.85" y1="3.35" x2="1.85" y2="-3.35" width="0.12" layer="51"/>
-<smd name="1" x="-3.075" y="2.3" dx="1.8603" dy="0.8979" layer="1"/>
-<smd name="2" x="-3.075" y="0" dx="1.8603" dy="0.8979" layer="1"/>
-<smd name="3" x="-3.075" y="-2.3" dx="1.8603" dy="0.8979" layer="1"/>
-<smd name="4" x="3.075" y="0" dx="1.8603" dy="3.1891" layer="1"/>
-<text x="0" y="4.138" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO220V" urn="urn:adsk.eagle:package:16417/2" type="model">
-<description>TO 200 vertical</description>
-<packageinstances>
-<packageinstance name="TO220V"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT230P700X170-4" urn="urn:adsk.eagle:package:16494942/1" type="model">
-<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.70 mm body
-&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.70 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOT230P700X170-4"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="78XX" urn="urn:adsk.eagle:symbol:34281528/1">
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="0" y="4" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="2.54" y="-7" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<text x="-2.032" y="-4.318" size="1.524" layer="95">GND</text>
-<pin name="VI" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="VO" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LM7805" urn="urn:adsk.eagle:component:34281530/1" prefix="IC">
-<description>&lt;b&gt;5V Voltage Regulator&lt;/b&gt;&lt;p&gt;
-
-&lt;p&gt;Reference 
-&lt;a href="https://www.ti.com/lit/ds/symlink/lm340.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="78XX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_TO220V" package="TO220V">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16417/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="IC_Linear" constant="no"/>
-<attribute name="DESCRIPTION" value="5V Voltage Regulator" constant="no"/>
-<attribute name="MANUFACTURER" value="Generic" constant="no"/>
-<attribute name="MPN" value="Generic" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="LM7805" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Voltage Regulator" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SOT223" package="SOT230P700X170-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 4"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16494942/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CATEGORY" value="IC_Logic" constant="no"/>
-<attribute name="DESCRIPTION" value="5V Voltage Regulator" constant="no"/>
-<attribute name="MANUFACTURER" value="Generic" constant="no"/>
-<attribute name="MPN" value="Generic" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
-<attribute name="PART_STATUS" value="" constant="no"/>
-<attribute name="ROHS_COMPLIANT" value="" constant="no"/>
-<attribute name="SERIES" value="LM7805" constant="no"/>
-<attribute name="SUB-CATEGORY" value="Voltage Regulator" constant="no"/>
-<attribute name="THERMALLOSS" value="" constant="no"/>
-<attribute name="TYPE" value="5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2779,7 +2636,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="2.8" package3d_urn="urn:adsk.eagle:package:14271/1"/>
 <part name="ARDUINO_NANO1" library="ArduinoNanoV30" deviceset="ARDUINO_NANO" device=""/>
-<part name="IC1" library="IC_Power-Management" deviceset="LM7805" device="_TO220V" package3d_urn="urn:adsk.eagle:package:16417/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2814,10 +2670,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <instance part="ARDUINO_NANO1" gate="G$1" x="58.42" y="45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.1" y="60.96" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="35.56" y="60.96" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="IC1" gate="G$1" x="93.98" y="10.16" smashed="yes">
-<attribute name="NAME" x="93.98" y="14.16" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="96.52" y="3.16" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -2902,19 +2754,12 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <label x="99.06" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
-<wire x1="73.66" y1="25.4" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="10.16" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VI"/>
-</segment>
-</net>
 <net name="LORA3.3V" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VO"/>
-<wire x1="104.14" y1="10.16" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
-<label x="111.76" y="10.16" size="1.778" layer="95"/>
+<wire x1="73.66" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
+<label x="81.28" y="7.62" size="1.778" layer="95"/>
+<pinref part="ARDUINO_NANO1" gate="G$1" pin="5V"/>
+<wire x1="73.66" y1="25.4" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
@@ -2944,11 +2789,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="17.78" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <label x="25.4" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="2.54" x2="93.98" y2="0" width="0.1524" layer="91"/>
-<label x="91.44" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
