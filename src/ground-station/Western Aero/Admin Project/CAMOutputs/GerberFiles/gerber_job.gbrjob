@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-12-02T21:00:16Z",
+        "GenerationSoftware": {
+            "Application": "Fusion 360 Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "gnd-station 2023_2024 v22"
+        },
+        "Owner": "John Langlois <jlangl@uwo.ca>",
+        "Size": {
+            "X": 114.28,
+            "Y": 54.28
+        }
+    }
+}
